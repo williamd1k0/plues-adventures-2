@@ -7,13 +7,13 @@
 script/source = "extends \"res://game/items/CustomScript.gd\"
 
 static func execute(manager):
-	manager.change_language('en')
+	TranslationServer.set_locale('en')
 "
 
 [node name="Choice" instance=ExtResource( 1 )]
 
-text = "1 - English"
-goto_id = "menu"
+text = "MENU_EN"
+goto_id = "settingsmenu"
 actions = 4
 custom_script = SubResource( 1 )
 

@@ -30,7 +30,7 @@ func _ready():
 		init_text()
 
 func _input(event):
-	if event.is_action_pressed("console_return"):
+	if event.is_action_released("console_return"):
 		tween.stop_all()
 		set_percent_visible(1)
 		tween.emit_signal("tween_complete")

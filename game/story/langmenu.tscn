@@ -18,6 +18,7 @@ text = ""
 
 margin/right = 430.0
 margin/bottom = 307.0
+tr_replace = false
 
 [node name="TextBase 2" parent="TextBase" instance=ExtResource( 3 )]
 
@@ -25,6 +26,7 @@ margin/top = 195.0
 margin/right = 387.0
 margin/bottom = 219.0
 text = "MENU_LANGUAGE_TITLE"
+tr_replace = false
 
 [node name="Choices" parent="."]
 
@@ -35,15 +37,13 @@ margin/bottom = 345.0
 
 margin/right = 658.0
 margin/bottom = 9.0
-text = "MENU_EN"
-goto_id = "settingsmenu"
 
 [node name="Choice 2" parent="Choices" instance=ExtResource( 5 )]
 
 margin/top = 13.0
 margin/right = 658.0
 margin/bottom = 22.0
-text = "MENU_PT"
+goto_id = "settingsmenu"
 
 [node name="Choice 3" parent="Choices" instance=ExtResource( 6 )]
 

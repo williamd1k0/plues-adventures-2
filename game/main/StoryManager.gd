@@ -42,11 +42,3 @@ func next_panel(id):
 	panel.connect('needs_input', self, '_on_StoryPanel_needs_input')
 	story.add_child(panel)
 	panel.start()
-
-func change_language(lang):
-	prints('change lang', lang)
-	TranslationServer.set_locale(lang)
-	var reload = load(get_filename()).instance()
-	reload.first_panel = current_panel
-	get_parent().add_child(reload)
-	queue_free()
