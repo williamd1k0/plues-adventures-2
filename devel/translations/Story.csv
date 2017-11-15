@@ -1,5 +1,22 @@
 ,en,pt
-P0_0,,{c}(Prólogo)
-P0_1,,"Era uma vez, no Mundo das Balas, existia um lendário tesouro chamado de Jóia Doce, que era mantido pelo Reino Carmella."
-P0_2,,"Mas, certo dia, este tesouro foi roubado por um Mago Malégno. Sem esta jóia, as balas do mundo inteiro irão desaparecer!"
-P0_3,,"Ao saberem disso, Plue e seu amigo Griff voltaram ao Reino Carmella para salvar as balas do mundo."
+PPLUE,,[Plue]
+PGAME_OVER,{c}[GAME OVER],{c}[FIM DO JOGO]
+,,
+P1_0,,{c}(Prólogo)
+P1_1,,"Era uma vez, no Mundo das Balas, existia um lendário tesouro chamado de Jóia Doce, que era mantido pelo Reino Carmella."
+P1_2,,"Mas, certo dia, este tesouro foi roubado por um Mago Malégno. Sem esta jóia, as balas do mundo inteiro irão desaparecer!"
+P1_3,,"Ao saberem disso, Plue e seu amigo Griff voltaram ao Reino Carmella para salvar as balas do mundo."
+,,
+P2_0,,{c}(Você é Plue)
+P2_1,,"[Griff] Finalmente chegamos, Mestre Plue. Estamos em Carmella."
+P2_2,,[Griff] Vamos falar com o Rei?
+A2_0,,"Sim, vamos!"
+A2_1,,"Não, preciso fazer outra coisa antes."
+,,
+P9_0,,[Griff] O que vai fazer?
+A9_0,,Vamos para o castelo.
+A9_1,,Dormir.
+A9_2,,Atacar Griff!
+,,
+P20_0,,[Griff] Aaaaii!! Isso não se faz!
+P20_1,,"{c}Griff foi embora, bravo!"

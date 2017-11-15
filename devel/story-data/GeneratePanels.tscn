@@ -35,6 +35,7 @@ func generate_panels():
 			continue
 		var sp = story_panel.instance(true)
 		sp.get_node(\"TextBase\").set_text(panel['text'])
+		sp.get_node(\"TextBase\").tr_replace = true
 		if 'links' in panel:
 			for link in panel['links']:
 				var c = choice.instance(true)

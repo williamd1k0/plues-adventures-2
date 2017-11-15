@@ -12,6 +12,7 @@ pupi
 
 game over
 [[splash]]"
+tr_replace = true
 
 [node name="Choice" parent="Choices" instance=ExtResource( 2 )]
 

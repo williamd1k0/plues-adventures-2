@@ -7,5 +7,6 @@
 [node name="TextBase" parent="."]
 
 text = "Clique duas vezes nessa passagem para editá-la."
+tr_replace = true
 
 

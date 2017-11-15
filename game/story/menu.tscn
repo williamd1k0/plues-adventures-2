@@ -37,7 +37,7 @@ margin/bottom = 315.0
 margin/right = 658.0
 margin/bottom = 9.0
 text = "MENU_PLAY"
-goto_id = "panel0"
+goto_id = "panel1"
 
 [node name="Choice1" parent="Choices" instance=ExtResource( 3 )]
 

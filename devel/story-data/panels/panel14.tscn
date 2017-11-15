@@ -13,6 +13,7 @@ pupi
 [[wake up->panel9]]
 [[sleep->panel12]]
 [[kill->panel20]]"
+tr_replace = true
 
 [node name="Choice" parent="Choices" instance=ExtResource( 2 )]
 
