@@ -20,3 +20,24 @@ A9_2,Attack Griff!,Atacar Griff!
 ,,
 P20_0,[Griff] Waaah! It hurts!,[Griff] Aaaaii!! Isso não se faz!
 P20_1,"{c}Griff is furious, so he went home.",{c}Griff foi embora bravo!
+,,
+P14_0,[Griff] Mestre Plue!! Vai anoitecer.$,[Griff] Mestre Plue!! Vai anoitecer.
+A14_0,Acordar.$,Acordar.
+A14_1,Dormir até a noite.$,Dormir até a noite.
+A14_2,Atacar Griff!$,Atacar Griff!
+,,
+P12_0,[Griff] Mestre Plue. O que viemos fazer aqui?$,[Griff] Mestre Plue. O que viemos fazer aqui?
+P12_1,[Plue] ZzzzzZZzZZzzzzzZZZzz$,[Plue] ZzzzzZZzZZzzzzzZZZzz
+,,
+P7_0,[Griff] Fantástico esse castelo! O rei deve estar aqui.$,[Griff] Fantástico esse castelo! O rei deve estar aqui.
+,,
+P8_0,{c}(Um guarda aparece!)$,{c}(Um guarda aparece!)
+P8_1,[Guarda] Hã? Quem são vocês?$,[Guarda] Hã? Quem são vocês?
+A8_0,Falar com ele.$,Falar com ele.
+A8_1,Derrotar ele.$,Derrotar ele.
+,,
+P15_0,[Guarda] Mm? Vieram ajudar a recuperar a Jóia Doce?$,[Guarda] Mm? Vieram ajudar a recuperar a Jóia Doce?
+P15_1,[Guarda] Quero ver se são herois de verdade!$,[Guarda] Quero ver se são herois de verdade!
+P15_2,{c}(A luta começa!)$,{c}(A luta começa!)
+A15_0,Lutar!$,Lutar!
+A15_0,Fugir!$,Fugir!
