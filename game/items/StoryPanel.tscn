@@ -32,10 +32,11 @@ auto_start = false
 
 [node name="TextBase" parent="." instance=ExtResource( 2 )]
 
-margin/right = 615.0
+margin/right = 510.0
 margin/bottom = 195.0
 text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+tr_replace = false
 
 [node name="Choices" type="VBoxContainer" parent="."]
 

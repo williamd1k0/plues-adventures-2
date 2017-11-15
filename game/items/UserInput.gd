@@ -14,7 +14,7 @@ var text_cache = ''
 var regex = RegEx.new()
 
 func _ready():
-	#get_node("TR").queue_free()
+	get_node("TR").queue_free()
 	if check_bad_words:
 		load_regex()
 	lock()
@@ -89,6 +89,10 @@ func process_input():
 		global_command(text.to_lower())
 	elif valid_inputs.size() == 0 or text in valid_inputs:
 		prints('CMD', text)
+		while Input.is_action_pressed("console_return"):
+			get_node("Wait").set_wait_time(0.1)
+			get_node("Wait").start()
+			yield(get_node("Wait"), 'timeout')
 		emit_signal("command", text)
 		set_placeholder("")
 		history.append(text)

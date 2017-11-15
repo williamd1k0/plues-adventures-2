@@ -26,6 +26,8 @@ text = ""
 
 [node name="TextBase" parent="TextBase" instance=ExtResource( 2 )]
 
+tr_replace = false
+
 [node name="Choices" parent="."]
 
 margin/bottom = 315.0
@@ -35,6 +37,7 @@ margin/bottom = 315.0
 margin/right = 658.0
 margin/bottom = 9.0
 text = "MENU_PLAY"
+goto_id = "panel0"
 
 [node name="Choice1" parent="Choices" instance=ExtResource( 3 )]
 
