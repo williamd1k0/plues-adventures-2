@@ -29,8 +29,7 @@ func _ready():
 	if auto_start and not get_parent().is_in_group('main-text'):
 		init_text()
 
-func _unhandled_input(event):
-#func _input(event):
+func _input(event):
 	if event.is_action_pressed("console_return"):
 		tween.stop_all()
 		set_percent_visible(1)
@@ -38,11 +37,9 @@ func _unhandled_input(event):
 
 func init_text():
 	type_text()
-	set_process_unhandled_input(can_skip)
-	#set_process_input(can_skip)
+	set_process_input(can_skip)
 	yield(tween, 'tween_complete')
-	set_process_unhandled_input(false)
-	#set_process_input(false)
+	set_process_input(false)
 	emit_signal("type_done")
 	if blink:
 		get_node("Blink").play("blink")
