@@ -7,10 +7,10 @@
 
 script/source = "extends VBoxContainer
 
-export(bool) var numered_list = true
+export(bool) var numbered_list = true
 
 func _ready():
-	if numered_list and get_child_count() > 1:
+	if numbered_list and get_child_count() > 1:
 		var n = 1
 		for child in get_children():
 			child.set_text('%s - %s' % [n, child.get_text()])
@@ -49,6 +49,6 @@ margin/right = 673.0
 margin/bottom = 330.0
 alignment = 0
 script/script = SubResource( 1 )
-numered_list = true
+numbered_list = true
 
 
