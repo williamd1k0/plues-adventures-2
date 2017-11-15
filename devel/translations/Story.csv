@@ -1,22 +1,22 @@
 ,en,pt
-PPLUE,,[Plue]
+PPLUE,[Plue] …,[Plue] …
 PGAME_OVER,{c}[GAME OVER],{c}[FIM DO JOGO]
 ,,
-P1_0,,{c}(Prólogo)
-P1_1,,"Era uma vez, no Mundo das Balas, existia um lendário tesouro chamado de Jóia Doce, que era mantido pelo Reino Carmella."
-P1_2,,"Mas, certo dia, este tesouro foi roubado por um Mago Malégno. Sem esta jóia, as balas do mundo inteiro irão desaparecer!"
-P1_3,,"Ao saberem disso, Plue e seu amigo Griff voltaram ao Reino Carmella para salvar as balas do mundo."
+P1_0,{c}(Synopsis),{c}(Prólogo)
+P1_1,"Once upon a time, in the Sweet World, there was a legendary treasure called the Sweet Gem, which was held by the Carmella Kingdom.","Era uma vez, no Mundo das Balas, existia um lendário tesouro chamado de Jóia Doce, que era mantido pelo Reino Carmella."
+P1_2,"The secret treasure of Sweet World has been stolen by an Evil Sorcerer. If the Sweet Gem disappears from Sweet World, all the sweets in the whole world will disappear along with it.","Mas, certo dia, este tesouro foi roubado por um Mago Malégno. Sem esta jóia, as balas do mundo inteiro irão desaparecer!"
+P1_3,"When Plue heard about this, he became determined to save the world’s sweets… Thus Plue and his friend Griff head towards Carmella.","Ao saberem disso, Plue e seu amigo Griff voltaram ao Reino Carmella para salvar as balas do mundo."
 ,,
-P2_0,,{c}(Você é Plue)
-P2_1,,"[Griff] Finalmente chegamos, Mestre Plue. Estamos em Carmella."
-P2_2,,[Griff] Vamos falar com o Rei?
-A2_0,,"Sim, vamos!"
-A2_1,,"Não, preciso fazer outra coisa antes."
+P2_0,{c}(You are Plue),{c}(Você é Plue)
+P2_1,"[Griff] Plue, we’ve arrived in Carmella!","[Griff] Finalmente chegamos, Mestre Plue. Estamos em Carmella."
+P2_2,[Griff] Let’s go and find out more from the King!,[Griff] Vamos falar com o Rei?
+A2_0,If you agree.,"Sim, vamos!"
+A2_1,Decide to do something else first.,"Não, preciso fazer outra coisa antes."
 ,,
-P9_0,,[Griff] O que vai fazer?
-A9_0,,Vamos para o castelo.
-A9_1,,Dormir.
-A9_2,,Atacar Griff!
+P9_0,[Griff] What are us doing here?,[Griff] O que viemos fazer aqui?
+A9_0,Head to the palace.,Vamos para o castelo.
+A9_1,Nap.,Dormir.
+A9_2,Attack Griff!,Atacar Griff!
 ,,
-P20_0,,[Griff] Aaaaii!! Isso não se faz!
-P20_1,,"{c}Griff foi embora, bravo!"
+P20_0,[Griff] Waaah! It hurts!,[Griff] Aaaaii!! Isso não se faz!
+P20_1,"{c}Griff is furious, so he went home.",{c}Griff foi embora bravo!
