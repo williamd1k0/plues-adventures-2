@@ -19,7 +19,7 @@ func _on_UserInput_command(cmd):
 		if action == 'achievement':
 			if not SaveData.has_achievement(choices_data[cmd][action]):
 				SaveData.unlock_achievement(choices_data[cmd][action])
-				input.type_info("New Ending: " + choices_data[cmd][action] + " - You learned the Lorem ipsum")
+				input.type_info("New Ending: " + tr('ENDING_'+choices_data[cmd][action]))
 				yield(input, 'text_type')
 		elif action == 'script':
 			choices_data[cmd][action].execute(self)
