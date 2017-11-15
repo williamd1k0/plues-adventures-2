@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=1]
+
+[ext_resource path="res://game/items/Choice.tscn" type="PackedScene" id=1]
+
+[sub_resource type="GDScript" id=1]
+
+script/source = "extends \"res://game/items/CustomScript.gd\"
+
+static func execute(manager):
+	manager.change_language('pt')
+"
+
+[node name="Choice" instance=ExtResource( 1 )]
+
+text = "2 - Portuguese"
+goto_id = "menu"
+actions = 4
+custom_script = SubResource( 1 )
+
+

@@ -1,0 +1,16 @@
+,en,pt
+MENU_PLAY,Play,Jogar
+MENU_LOAD,Load,Carregar
+MENU_SETTINGS,Settings,Configurações
+MENU_HELP,Help,Ajuda
+MENU_EXTRA,Extras,Extras
+,,
+MENU_SETTINGS_TITLE,Select an option or press Return to back to main menu.,Selecione uma opção ou pressione Enter para voltar ao menu principal.
+MENU_VIDEO,Video,Vídeo
+MENU_AUDIO,Audio,Áudio
+MENU_LANGUAGE,Languages,Idiomas
+MENU_CLEAR,Clear data,Apagar dados
+,,
+MENU_LANGUAGE_TITLE,Choose a language or press Return to cancel.,Escolha um idioma ou pressione Enter para cancelar.
+MENU_PT,Português,Português
+MENU_EN,English,English

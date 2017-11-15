@@ -1,0 +1,67 @@
+[gd_scene load_steps=4 format=1]
+
+[ext_resource path="res://devel/story-data/StoryPanel.tscn" type="PackedScene" id=1]
+[ext_resource path="res://game/items/Choice.tscn" type="PackedScene" id=2]
+
+[sub_resource type="GDScript" id=1]
+
+script/source = "extends Node
+enum {
+	A_CHECKPOINT=1<<0,
+	A_ACHIEVEMENT=1<<1,
+	A_SCRIPT=1<<2
+}
+
+export(String, FILE, '*.json') var data
+export(String, DIR) var path
+export(PackedScene) var story_panel
+export(PackedScene) var choice
+export(bool) var overwrite = false
+var data_json = {}
+
+func _ready():
+	var f = File.new()
+	f.open(data, File.READ)
+	data_json.parse_json(f.get_as_text())
+	f.close()
+	generate_panels()
+
+func generate_panels():
+	var f = File.new()
+	for panel in data_json['passages']:
+		var file = path.plus_file(panel['name']+'.tscn')
+		if not overwrite and f.file_exists(file):
+			prints('Ignoring file:', file)
+			continue
+		var sp = story_panel.instance(true)
+		sp.get_node(\"TextBase\").set_text(panel['text'])
+		if 'links' in panel:
+			for link in panel['links']:
+				var c = choice.instance(true)
+				c.goto_id = link['link']
+				c.set_text(link['name'])
+				if 'tags' in panel:
+					if 'checkpoint' in panel['tags']:
+						c.actions |= A_CHECKPOINT
+					for t in panel['tags']:
+						if t.begins_with('achievement'):
+							c.actions |= A_ACHIEVEMENT
+							c.achievement_id = t.split(':')[-1]
+				sp.get_node(\"Choices\").add_child(c, true)
+				c.set_owner(sp)
+		var scn = PackedScene.new()
+		scn.pack(sp)
+		ResourceSaver.save(file, scn)
+		prints('Generating:', file)
+"
+
+[node name="GeneratePanels" type="Node"]
+
+script/script = SubResource( 1 )
+data = "res://devel/story-data/story.json"
+path = "res://devel/story-data/panels"
+story_panel = ExtResource( 1 )
+choice = ExtResource( 2 )
+overwrite = false
+
+

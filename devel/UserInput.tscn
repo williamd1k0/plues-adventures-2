@@ -1,0 +1,46 @@
+[gd_scene load_steps=3 format=1]
+
+[ext_resource path="res://assets/themes/console.tres" type="Theme" id=1]
+[ext_resource path="res://devel/UserInput.gd" type="Script" id=2]
+
+[node name="UserInput" type="LineEdit"]
+
+hint/tooltip = "Type a command"
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+theme/theme = ExtResource( 1 )
+margin/left = 10.0
+margin/top = 0.0
+margin/right = 920.0
+margin/bottom = 23.0
+placeholder/alpha = 0.6
+max_length = 80
+focus_mode = 2
+caret/caret_blink = false
+caret/caret_blink_speed = 0.65
+script/script = ExtResource( 2 )
+valid_inputs = null
+
+[node name="Cmd" type="Label" parent="."]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+margin/left = -10.0
+margin/top = 0.0
+margin/right = 50.0
+margin/bottom = 25.0
+text = ">"
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+__meta__ = {
+"_edit_lock_": true
+}
+
+[connection signal="input_event" from="." to="." method="_on_UserInput_input_event"]
+
+

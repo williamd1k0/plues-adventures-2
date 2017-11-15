@@ -1,0 +1,69 @@
+[gd_scene load_steps=4 format=1]
+
+[ext_resource path="res://game/items/StoryPanel.tscn" type="PackedScene" id=1]
+[ext_resource path="res://game/items/UserInput.tscn" type="PackedScene" id=2]
+
+[sub_resource type="GDScript" id=1]
+
+script/source = "extends Node
+
+var choices_data
+var achievement
+var current_panel
+
+func _ready():
+	pass
+
+func _on_UserInput_command( cmd ):
+	for action in choices_data[cmd]:
+		if action == 'achievement':
+			get_node(\"UserInput\").type_info(\"New Ending: \" + choices_data[cmd][action] + \" - You learned the Lorem ipsum\")
+			yield(get_node(\"UserInput\"), 'text_type')
+		elif action == 'script':
+			choices_data[cmd][action].execute(get_node(\"UserInput\"), current_panel)
+		elif action == 'checkpoint':
+			prints('auto-saving:', choices_data[cmd][action])
+	prints(choices_data[cmd])
+	next_panel(choices_data[cmd]['choice-id'])
+
+func _on_StoryPanel_needs_input( choices ):
+	prints(\"INPUT\", choices)
+	choices_data = choices
+	get_node(\"UserInput\").wait_command(choices.keys())
+
+func next_panel(id):
+	prints('next panel', id)
+	remove_child(get_node(\"Story/StoryPanel\"))
+"
+
+[node name="StoryTest" type="Node"]
+
+script/script = SubResource( 1 )
+
+[node name="Story" type="Control" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 0.0
+margin/top = 0.0
+margin/right = 40.0
+margin/bottom = 40.0
+
+[node name="StoryPanel" parent="Story" instance=ExtResource( 1 )]
+
+margin/left = 16.0
+
+[node name="UserInput" parent="." instance=ExtResource( 2 )]
+
+margin/left = 16.0
+margin/top = 329.0
+margin/bottom = 352.0
+valid_inputs = StringArray( "lorem ipsum" )
+
+[connection signal="needs_input" from="Story/StoryPanel" to="." method="_on_StoryPanel_needs_input"]
+
+[connection signal="command" from="UserInput" to="." method="_on_UserInput_command"]
+
+

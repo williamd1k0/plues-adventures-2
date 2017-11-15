@@ -1,0 +1,54 @@
+[gd_scene load_steps=4 format=1]
+
+[ext_resource path="res://game/items/StoryPanel.gd" type="Script" id=1]
+[ext_resource path="res://game/items/TextBase.tscn" type="PackedScene" id=2]
+
+[sub_resource type="GDScript" id=1]
+
+script/source = "extends VBoxContainer
+
+export(bool) var numered_list = true
+
+func _ready():
+	if numered_list and get_child_count() > 1:
+		var n = 1
+		for child in get_children():
+			child.set_text('%s - %s' % [n, child.get_text()])
+			n+=1
+"
+
+[node name="StoryPanel" type="Panel"]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 15.0
+margin/top = 15.0
+margin/right = 688.0
+margin/bottom = 210.0
+script/script = ExtResource( 1 )
+auto_start = false
+
+[node name="TextBase" parent="." instance=ExtResource( 2 )]
+
+margin/right = 615.0
+margin/bottom = 195.0
+text = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+
+[node name="Choices" type="VBoxContainer" parent="."]
+
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 15.0
+margin/top = 210.0
+margin/right = 673.0
+margin/bottom = 330.0
+alignment = 0
+script/script = SubResource( 1 )
+numered_list = true
+
+

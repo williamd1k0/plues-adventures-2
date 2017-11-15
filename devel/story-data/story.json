@@ -1,0 +1,176 @@
+{
+  "passages": [
+    {
+      "text": "pan1\npan2\npan3\n\n[[panel1]]",
+      "links": [
+        {
+          "name": "panel1",
+          "link": "panel1",
+          "pid": "2"
+        }
+      ],
+      "name": "panel0",
+      "pid": "1",
+      "position": {
+        "x": "412",
+        "y": "187.5"
+      }
+    },
+    {
+      "text": "carmella\npun\n\n[[panel2]]",
+      "links": [
+        {
+          "name": "panel2",
+          "link": "panel2",
+          "pid": "3"
+        }
+      ],
+      "name": "panel1",
+      "pid": "2",
+      "position": {
+        "x": "642",
+        "y": "147.5"
+      }
+    },
+    {
+      "text": "talk to king\npun\n\n[[yes->panel7]]\n[[wait->panel9]]",
+      "links": [
+        {
+          "name": "yes",
+          "link": "panel7",
+          "pid": "4"
+        },
+        {
+          "name": "wait",
+          "link": "panel9",
+          "pid": "5"
+        }
+      ],
+      "name": "panel2",
+      "pid": "3",
+      "position": {
+        "x": "593",
+        "y": "299.5"
+      }
+    },
+    {
+      "text": "Clique duas vezes nessa passagem para editá-la.",
+      "name": "panel7",
+      "pid": "4",
+      "position": {
+        "x": "309",
+        "y": "471.5"
+      }
+    },
+    {
+      "text": "what todo?\npun?\n\n[[castle->panel7]]\n[[sleep->panel14]]\n[[kill->panel20]]",
+      "links": [
+        {
+          "name": "castle",
+          "link": "panel7",
+          "pid": "4"
+        },
+        {
+          "name": "sleep",
+          "link": "panel14",
+          "pid": "6"
+        },
+        {
+          "name": "kill",
+          "link": "panel20",
+          "pid": "7"
+        }
+      ],
+      "name": "panel9",
+      "pid": "5",
+      "position": {
+        "x": "725",
+        "y": "496.5"
+      },
+      "tags": [
+        "checkpoint"
+      ]
+    },
+    {
+      "text": "night\npupi\n\n[[wake up->panel9]]\n[[sleep->panel12]]\n[[kill->panel20]]",
+      "links": [
+        {
+          "name": "wake up",
+          "link": "panel9",
+          "pid": "5"
+        },
+        {
+          "name": "sleep",
+          "link": "panel12",
+          "pid": "9"
+        },
+        {
+          "name": "kill",
+          "link": "panel20",
+          "pid": "7"
+        }
+      ],
+      "name": "panel14",
+      "pid": "6",
+      "position": {
+        "x": "482",
+        "y": "679.5"
+      },
+      "tags": [
+        "checkpoint"
+      ]
+    },
+    {
+      "text": "ouch!\ngriff died\ngame over\n\n[[splash]]",
+      "links": [
+        {
+          "name": "splash",
+          "link": "splash",
+          "pid": "8"
+        }
+      ],
+      "name": "panel20",
+      "pid": "7",
+      "position": {
+        "x": "980",
+        "y": "754.5"
+      },
+      "tags": [
+        "achievement:20"
+      ]
+    },
+    {
+      "text": "Clique duas vezes nessa passagem para editá-la.",
+      "name": "splash",
+      "pid": "8",
+      "position": {
+        "x": "1050",
+        "y": "276.5"
+      }
+    },
+    {
+      "text": "what?\npupi\n\ngame over\n[[splash]]",
+      "links": [
+        {
+          "name": "splash",
+          "link": "splash",
+          "pid": "8"
+        }
+      ],
+      "name": "panel12",
+      "pid": "9",
+      "position": {
+        "x": "666",
+        "y": "879.5"
+      },
+      "tags": [
+        "achievement:10"
+      ]
+    }
+  ],
+  "name": "Plue's",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.1.3",
+  "ifid": "5D9BDC63-15CF-4513-92D7-E19C95F3D7CE"
+}

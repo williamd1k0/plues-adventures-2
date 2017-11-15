@@ -1,0 +1,28 @@
+[gd_scene load_steps=3 format=1]
+
+[ext_resource path="res://assets/themes/console.tres" type="Theme" id=1]
+[ext_resource path="res://game/items/Choice.gd" type="Script" id=2]
+
+[node name="Choice" type="Label"]
+
+focus/ignore_mouse = true
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 0
+theme/theme = ExtResource( 1 )
+margin/left = 0.0
+margin/top = 0.0
+margin/right = 190.0
+margin/bottom = 31.0
+percent_visible = 1.0
+lines_skipped = 0
+max_lines_visible = -1
+script/script = ExtResource( 2 )
+choice_id = ""
+goto_id = ""
+id_type = 2
+actions = 0
+achievement_id = null
+custom_script = null
+
+

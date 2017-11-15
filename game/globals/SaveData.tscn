@@ -1,0 +1,57 @@
+[gd_scene load_steps=2 format=1]
+
+[sub_resource type="GDScript" id=1]
+
+script/source = "extends Node
+
+var SAVE_PATH = 'user://save%s.sav' % OS.get_unix_time()
+var data = {
+	\"savepoints\": [],
+	\"achievements\": []
+}
+
+
+func _ready():
+	load_data()
+	get_save_points()
+
+func add_save_point(id):
+	data.savepoints.push_front(id)
+	save_data()
+
+func get_save_points(limit=5):
+	var sp = []
+	for s in range(min(data.savepoints.size(), limit)):
+		sp.append(data.savepoints[s])
+	return sp
+
+func has_save_points():
+	return not data.savepoints.empty()
+
+func has_achievement(id):
+	return id in data.achievements
+
+func unlock_achievement(id):
+	data.achievements.append(id)
+	save_data()
+
+func load_data():
+	var f = File.new()
+	if f.file_exists(SAVE_PATH):
+		f.open_encrypted_with_pass(SAVE_PATH, File.READ, 'imposto é roubo')
+		data = f.get_var()
+		f.close()
+	print(data)
+
+func save_data():
+	var f = File.new()
+	f.open_encrypted_with_pass(SAVE_PATH, File.WRITE, 'imposto é roubo')
+	f.store_var(data)
+	f.close()
+"
+
+[node name="SaveData" type="Node"]
+
+script/script = SubResource( 1 )
+
+
