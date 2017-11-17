@@ -7,15 +7,14 @@
 
 [node name="TextBase" parent="."]
 
-text = "P20_0
-P20_1
-PGAME_OVER"
+text = "ouch!
+griff died
+game over"
 tr_replace = true
 
 [node name="Choice" parent="Choices" instance=ExtResource( 2 )]
 
-margin/right = 658.0
-margin/bottom = 9.0
+text = "splash"
 goto_id = "splash"
 id_type = 0
 actions = 2

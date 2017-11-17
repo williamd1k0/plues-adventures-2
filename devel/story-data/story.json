@@ -1,65 +1,56 @@
 {
   "passages": [
     {
-      "text": "pan1\npan2\npan3\n\n[[panel1]]",
-      "links": [
-        {
-          "name": "panel1",
-          "link": "panel1",
-          "pid": "2"
-        }
-      ],
-      "name": "panel0",
-      "pid": "1",
-      "position": {
-        "x": "412",
-        "y": "187.5"
-      }
-    },
-    {
-      "text": "carmella\npun\n\n[[panel2]]",
+      "text": "pan1\npan2\npan3\n\n[[panel2]]",
       "links": [
         {
           "name": "panel2",
           "link": "panel2",
-          "pid": "3"
+          "pid": "2"
         }
       ],
       "name": "panel1",
-      "pid": "2",
+      "pid": "1",
       "position": {
-        "x": "642",
-        "y": "147.5"
+        "x": "37",
+        "y": "54"
       }
     },
     {
-      "text": "talk to king\npun\n\n[[yes->panel7]]\n[[wait->panel9]]",
+      "text": "carmella\ntalk to king\npun\n\n[[yes->panel7]]\n[[wait->panel9]]",
       "links": [
         {
           "name": "yes",
           "link": "panel7",
-          "pid": "4"
+          "pid": "3"
         },
         {
           "name": "wait",
           "link": "panel9",
-          "pid": "5"
+          "pid": "4"
         }
       ],
       "name": "panel2",
-      "pid": "3",
+      "pid": "2",
       "position": {
-        "x": "593",
-        "y": "299.5"
+        "x": "202",
+        "y": "52"
       }
     },
     {
-      "text": "Clique duas vezes nessa passagem para editá-la.",
+      "text": "P7_0\n\n[[->panel8]]",
+      "links": [
+        {
+          "name": "",
+          "link": "panel8",
+          "pid": "9"
+        }
+      ],
       "name": "panel7",
-      "pid": "4",
+      "pid": "3",
       "position": {
-        "x": "309",
-        "y": "471.5"
+        "x": "206.33333333333334",
+        "y": "269"
       }
     },
     {
@@ -68,53 +59,53 @@
         {
           "name": "castle",
           "link": "panel7",
-          "pid": "4"
+          "pid": "3"
         },
         {
           "name": "sleep",
           "link": "panel14",
-          "pid": "6"
+          "pid": "5"
         },
         {
           "name": "kill",
           "link": "panel20",
-          "pid": "7"
+          "pid": "6"
         }
       ],
       "name": "panel9",
-      "pid": "5",
+      "pid": "4",
       "position": {
-        "x": "725",
-        "y": "496.5"
+        "x": "458",
+        "y": "46"
       },
       "tags": [
         "checkpoint"
       ]
     },
     {
-      "text": "night\npupi\n\n[[wake up->panel9]]\n[[sleep->panel12]]\n[[kill->panel20]]",
+      "text": "P14_0\nPPUPI\n\n[[A14_0->panel9]]\n[[A14_1->panel12]]\n[[A14_2->panel20]]",
       "links": [
         {
-          "name": "wake up",
+          "name": "A14_0",
           "link": "panel9",
-          "pid": "5"
+          "pid": "4"
         },
         {
-          "name": "sleep",
+          "name": "A14_1",
           "link": "panel12",
-          "pid": "9"
+          "pid": "8"
         },
         {
-          "name": "kill",
+          "name": "A14_2",
           "link": "panel20",
-          "pid": "7"
+          "pid": "6"
         }
       ],
       "name": "panel14",
-      "pid": "6",
+      "pid": "5",
       "position": {
-        "x": "482",
-        "y": "679.5"
+        "x": "613.6666666666667",
+        "y": "262"
       },
       "tags": [
         "checkpoint"
@@ -126,46 +117,161 @@
         {
           "name": "splash",
           "link": "splash",
-          "pid": "8"
+          "pid": "7"
         }
       ],
       "name": "panel20",
-      "pid": "7",
+      "pid": "6",
       "position": {
-        "x": "980",
-        "y": "754.5"
+        "x": "770.9999999999999",
+        "y": "49.99999999999996"
       },
       "tags": [
         "achievement:20"
       ]
     },
     {
-      "text": "Clique duas vezes nessa passagem para editá-la.",
+      "text": "game over",
       "name": "splash",
-      "pid": "8",
+      "pid": "7",
       "position": {
-        "x": "1050",
-        "y": "276.5"
+        "x": "2092",
+        "y": "1148.6666666666667"
       }
     },
     {
-      "text": "what?\npupi\n\ngame over\n[[splash]]",
+      "text": "P12_0\nPPUPI\nPGAME_OVER\n\n[[->splash]]",
       "links": [
         {
-          "name": "splash",
+          "name": "",
           "link": "splash",
-          "pid": "8"
+          "pid": "7"
         }
       ],
       "name": "panel12",
-      "pid": "9",
+      "pid": "8",
       "position": {
-        "x": "666",
-        "y": "879.5"
+        "x": "845.0000000000001",
+        "y": "260.9999999999999"
       },
       "tags": [
         "achievement:10"
       ]
+    },
+    {
+      "text": "P8_0\nP8_1\n\n[[A8_0->panel15]]\n[[A8_1->panel4]]",
+      "links": [
+        {
+          "name": "A8_0",
+          "link": "panel15",
+          "pid": "10"
+        },
+        {
+          "name": "A8_1",
+          "link": "panel4",
+          "pid": "11"
+        }
+      ],
+      "name": "panel8",
+      "pid": "9",
+      "position": {
+        "x": "119",
+        "y": "462.66666666666663"
+      }
+    },
+    {
+      "text": "P15_0\nP15_1\n\n[[A15_0->panel4]]\n[[A15_1->panel30]]",
+      "links": [
+        {
+          "name": "A15_0",
+          "link": "panel4",
+          "pid": "11"
+        },
+        {
+          "name": "A15_1",
+          "link": "panel30",
+          "pid": "15"
+        }
+      ],
+      "name": "panel15",
+      "pid": "10",
+      "position": {
+        "x": "103",
+        "y": "687.6666666666666"
+      }
+    },
+    {
+      "text": "P4_0\nP4_1\n\n[[->panel5]]",
+      "links": [
+        {
+          "name": "",
+          "link": "panel5",
+          "pid": "12"
+        }
+      ],
+      "name": "panel4",
+      "pid": "11",
+      "position": {
+        "x": "340",
+        "y": "565.6666666666666"
+      }
+    },
+    {
+      "text": "P5_0\nP5_1\n\n[[->panel6]]",
+      "links": [
+        {
+          "name": "",
+          "link": "panel6",
+          "pid": "13"
+        }
+      ],
+      "name": "panel5",
+      "pid": "12",
+      "position": {
+        "x": "340",
+        "y": "715.6666666666666"
+      }
+    },
+    {
+      "text": "P6_0\nP6_1\n\n[[->panel19]]",
+      "links": [
+        {
+          "name": "",
+          "link": "panel19",
+          "pid": "14"
+        }
+      ],
+      "name": "panel6",
+      "pid": "13",
+      "position": {
+        "x": "340",
+        "y": "865.6666666666666"
+      }
+    },
+    {
+      "text": "Clique duas vezes nessa passagem para editá-la.",
+      "name": "panel19",
+      "pid": "14",
+      "position": {
+        "x": "340",
+        "y": "1015.6666666666666"
+      }
+    },
+    {
+      "text": "P30_0\nP30_1\n\n[[->panel5]]",
+      "links": [
+        {
+          "name": "",
+          "link": "panel5",
+          "pid": "12"
+        }
+      ],
+      "name": "panel30",
+      "pid": "15",
+      "position": {
+        "x": "103",
+        "y": "837.6666666666666"
+      }
     }
   ],
   "name": "Plue's",

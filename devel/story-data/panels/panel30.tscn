@@ -7,12 +7,13 @@
 
 [node name="TextBase" parent="."]
 
-text = "P7_0"
+text = "P30_0
+P30_1"
 tr_replace = true
 
 [node name="Choice" parent="Choices" instance=ExtResource( 2 )]
 
-goto_id = "panel8"
+goto_id = "panel5"
 id_type = 0
 
 

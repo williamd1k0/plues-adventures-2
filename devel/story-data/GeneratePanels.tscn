@@ -34,13 +34,17 @@ func generate_panels():
 			prints('Ignoring file:', file)
 			continue
 		var sp = story_panel.instance(true)
-		sp.get_node(\"TextBase\").set_text(panel['text'])
+		sp.get_node(\"TextBase\").set_message_translation(false)
+		sp.get_node(\"TextBase\").set_text(panel['text'].split('\\n\\n')[0])
 		sp.get_node(\"TextBase\").tr_replace = true
 		if 'links' in panel:
 			for link in panel['links']:
 				var c = choice.instance(true)
+				c.set_message_translation(false)
 				c.goto_id = link['link']
 				c.set_text(link['name'])
+				if panel['links'].size() == 1:
+					c.id_type = 0
 				if 'tags' in panel:
 					if 'checkpoint' in panel['tags']:
 						c.actions |= A_CHECKPOINT
@@ -63,6 +67,6 @@ data = "res://devel/story-data/story.json"
 path = "res://devel/story-data/panels"
 story_panel = ExtResource( 1 )
 choice = ExtResource( 2 )
-overwrite = false
+overwrite = true
 
 

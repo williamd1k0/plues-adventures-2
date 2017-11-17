@@ -7,14 +7,15 @@
 
 [node name="TextBase" parent="."]
 
-text = "carmella
-pun
-
-[[panel2]]"
+text = "pan1
+pan2
+pan3"
+tr_replace = true
 
 [node name="Choice" parent="Choices" instance=ExtResource( 2 )]
 
 text = "panel2"
 goto_id = "panel2"
+id_type = 0
 
 

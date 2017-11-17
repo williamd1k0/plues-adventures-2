@@ -7,17 +7,15 @@
 
 [node name="TextBase" parent="."]
 
-text = "what?
-pupi
-
-game over
-[[splash]]"
+text = "P12_0
+PPUPI
+PGAME_OVER"
 tr_replace = true
 
 [node name="Choice" parent="Choices" instance=ExtResource( 2 )]
 
-text = "splash"
 goto_id = "splash"
+id_type = 0
 actions = 2
 achievement_id = "10"
 

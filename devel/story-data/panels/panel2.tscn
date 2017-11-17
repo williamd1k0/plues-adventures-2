@@ -7,25 +7,19 @@
 
 [node name="TextBase" parent="."]
 
-text = "P1_0
-P1_1
-P1_2
-PPLUE"
+text = "carmella
+talk to king
+pun"
 tr_replace = true
 
 [node name="Choice" parent="Choices" instance=ExtResource( 2 )]
 
-margin/right = 658.0
-margin/bottom = 9.0
-text = "A1_0"
+text = "yes"
 goto_id = "panel7"
 
 [node name="Choice 2" parent="Choices" instance=ExtResource( 2 )]
 
-margin/top = 13.0
-margin/right = 658.0
-margin/bottom = 22.0
-text = "A1_1"
+text = "wait"
 goto_id = "panel9"
 
 
