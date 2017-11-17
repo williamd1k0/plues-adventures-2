@@ -7,19 +7,20 @@
 
 [node name="TextBase" parent="."]
 
-text = "carmella
-talk to king
-pun"
+text = "P2_0
+P2_1
+P2_2
+PPLUE"
 tr_replace = true
 
 [node name="Choice" parent="Choices" instance=ExtResource( 2 )]
 
-text = "yes"
+text = "A2_0"
 goto_id = "panel7"
 
 [node name="Choice 2" parent="Choices" instance=ExtResource( 2 )]
 
-text = "wait"
+text = "A2_1"
 goto_id = "panel9"
 
 

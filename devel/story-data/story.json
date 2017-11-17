@@ -1,10 +1,10 @@
 {
   "passages": [
     {
-      "text": "pan1\npan2\npan3\n\n[[panel2]]",
+      "text": "P1_0\nP1_1\nP1_2\nP1_3\n\n[[->panel2]]",
       "links": [
         {
-          "name": "panel2",
+          "name": "",
           "link": "panel2",
           "pid": "2"
         }
@@ -17,15 +17,15 @@
       }
     },
     {
-      "text": "carmella\ntalk to king\npun\n\n[[yes->panel7]]\n[[wait->panel9]]",
+      "text": "P2_0\nP2_1\nP2_2\nPPLUE\n\n[[A2_0->panel7]]\n[[A2_1->panel9]]",
       "links": [
         {
-          "name": "yes",
+          "name": "A2_0",
           "link": "panel7",
           "pid": "3"
         },
         {
-          "name": "wait",
+          "name": "A2_1",
           "link": "panel9",
           "pid": "4"
         }
@@ -34,7 +34,7 @@
       "pid": "2",
       "position": {
         "x": "202",
-        "y": "52"
+        "y": "53"
       }
     },
     {
@@ -54,20 +54,20 @@
       }
     },
     {
-      "text": "what todo?\npun?\n\n[[castle->panel7]]\n[[sleep->panel14]]\n[[kill->panel20]]",
+      "text": "P9_0\nPPLUE\n\n[[A9_0->panel7]]\n[[A9_1->panel14]]\n[[A9_2->panel20]]",
       "links": [
         {
-          "name": "castle",
+          "name": "A9_0",
           "link": "panel7",
           "pid": "3"
         },
         {
-          "name": "sleep",
+          "name": "A9_1",
           "link": "panel14",
           "pid": "5"
         },
         {
-          "name": "kill",
+          "name": "A9_2",
           "link": "panel20",
           "pid": "6"
         }
@@ -112,10 +112,10 @@
       ]
     },
     {
-      "text": "ouch!\ngriff died\ngame over\n\n[[splash]]",
+      "text": "P20_0\nP20_1\nPGAME_OVER\n\n[[->splash]]",
       "links": [
         {
-          "name": "splash",
+          "name": "",
           "link": "splash",
           "pid": "7"
         }

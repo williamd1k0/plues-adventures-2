@@ -7,25 +7,25 @@
 
 [node name="TextBase" parent="."]
 
-text = "what todo?
-pun?"
+text = "P9_0
+PPLUE"
 tr_replace = true
 
 [node name="Choice" parent="Choices" instance=ExtResource( 2 )]
 
-text = "castle"
+text = "A9_0"
 goto_id = "panel7"
 actions = 1
 
 [node name="Choice 2" parent="Choices" instance=ExtResource( 2 )]
 
-text = "sleep"
+text = "A9_1"
 goto_id = "panel14"
 actions = 1
 
 [node name="Choice 3" parent="Choices" instance=ExtResource( 2 )]
 
-text = "kill"
+text = "A9_2"
 goto_id = "panel20"
 actions = 1
 
