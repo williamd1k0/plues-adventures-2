@@ -67,6 +67,6 @@ data = "res://devel/story-data/story.json"
 path = "res://devel/story-data/panels"
 story_panel = ExtResource( 1 )
 choice = ExtResource( 2 )
-overwrite = true
+overwrite = false
 
 
