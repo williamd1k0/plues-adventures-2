@@ -49,7 +49,7 @@
       "name": "panel7",
       "pid": "3",
       "position": {
-        "x": "206.33333333333334",
+        "x": "206",
         "y": "269"
       }
     },
@@ -104,7 +104,7 @@
       "name": "panel14",
       "pid": "5",
       "position": {
-        "x": "613.6666666666667",
+        "x": "613",
         "y": "262"
       },
       "tags": [
@@ -123,8 +123,8 @@
       "name": "panel20",
       "pid": "6",
       "position": {
-        "x": "770.9999999999999",
-        "y": "49.99999999999996"
+        "x": "770",
+        "y": "49"
       },
       "tags": [
         "achievement:20"
@@ -136,7 +136,7 @@
       "pid": "7",
       "position": {
         "x": "2092",
-        "y": "1148.6666666666667"
+        "y": "1148"
       }
     },
     {
@@ -151,8 +151,8 @@
       "name": "panel12",
       "pid": "8",
       "position": {
-        "x": "845.0000000000001",
-        "y": "260.9999999999999"
+        "x": "845",
+        "y": "260"
       },
       "tags": [
         "achievement:10"
@@ -176,7 +176,7 @@
       "pid": "9",
       "position": {
         "x": "119",
-        "y": "462.66666666666663"
+        "y": "462"
       }
     },
     {
@@ -196,8 +196,8 @@
       "name": "panel15",
       "pid": "10",
       "position": {
-        "x": "104.66666666666667",
-        "y": "672.6666666666666"
+        "x": "94",
+        "y": "652"
       }
     },
     {
@@ -212,8 +212,8 @@
       "name": "panel4",
       "pid": "11",
       "position": {
-        "x": "371.6666666666667",
-        "y": "432.33333333333326"
+        "x": "371",
+        "y": "432"
       }
     },
     {
@@ -228,8 +228,8 @@
       "name": "panel5",
       "pid": "12",
       "position": {
-        "x": "601.6666666666667",
-        "y": "455.66666666666663"
+        "x": "601",
+        "y": "455"
       }
     },
     {
@@ -244,8 +244,8 @@
       "name": "panel6",
       "pid": "13",
       "position": {
-        "x": "843.3333333333334",
-        "y": "455.66666666666663"
+        "x": "843",
+        "y": "455"
       }
     },
     {
@@ -260,7 +260,7 @@
       "name": "panel19",
       "pid": "14",
       "position": {
-        "x": "811.6666666666667",
+        "x": "811",
         "y": "629"
       }
     },
@@ -276,8 +276,8 @@
       "name": "panel30",
       "pid": "15",
       "position": {
-        "x": "93",
-        "y": "921"
+        "x": "260",
+        "y": "650"
       }
     },
     {
@@ -312,8 +312,8 @@
       "name": "panel26",
       "pid": "16",
       "position": {
-        "x": "621.6666666666666",
-        "y": "652.3333333333333"
+        "x": "621",
+        "y": "652"
       }
     },
     {
@@ -329,7 +329,7 @@
       "pid": "17",
       "position": {
         "x": "635",
-        "y": "865.6666666666669"
+        "y": "865"
       }
     },
     {
@@ -349,8 +349,8 @@
       "name": "panel29",
       "pid": "18",
       "position": {
-        "x": "413.33333333333326",
-        "y": "667.3333333333331"
+        "x": "413",
+        "y": "667"
       }
     },
     {
@@ -365,7 +365,7 @@
       "name": "panel37",
       "pid": "19",
       "position": {
-        "x": "761.6666666666666",
+        "x": "761",
         "y": "894"
       }
     },
@@ -381,8 +381,8 @@
       "name": "panel56",
       "pid": "20",
       "position": {
-        "x": "896.6666666666666",
-        "y": "864.0000000000001"
+        "x": "896",
+        "y": "864"
       }
     },
     {
@@ -397,8 +397,8 @@
       "name": "panel16",
       "pid": "21",
       "position": {
-        "x": "1040.0000000000002",
-        "y": "810.6666666666665"
+        "x": "1040",
+        "y": "810"
       }
     },
     {
@@ -418,7 +418,7 @@
       "name": "panel44",
       "pid": "22",
       "position": {
-        "x": "348.33333333333326",
+        "x": "348",
         "y": "864"
       }
     },
@@ -434,17 +434,493 @@
       "name": "panel54",
       "pid": "23",
       "position": {
-        "x": "503.33333333333326",
-        "y": "867.3333333333333"
+        "x": "503",
+        "y": "867"
+      }
+    },
+    {
+      "text": "P17_0\n\n[[A17_0->panel31]]\n[[A17_1->panel22]]",
+      "links": [
+        {
+          "name": "A17_0",
+          "link": "panel31",
+          "pid": "25"
+        },
+        {
+          "name": "A17_1",
+          "link": "panel22",
+          "pid": "26"
+        }
+      ],
+      "name": "panel17",
+      "pid": "24",
+      "position": {
+        "x": "1188",
+        "y": "934"
+      },
+      "tags": [
+        "checkpoint"
+      ]
+    },
+    {
+      "text": "P31_0\nP31_1\nPGAME_OVER\n\n[[->splash]]",
+      "links": [
+        {
+          "name": "",
+          "link": "splash",
+          "pid": "7"
+        }
+      ],
+      "name": "panel31",
+      "pid": "25",
+      "position": {
+        "x": "1245",
+        "y": "1189"
+      },
+      "tags": [
+        "achievement:40"
+      ]
+    },
+    {
+      "text": "P22_0\n\n[[A22_0->panel36]]\n[[A22_1->panel31]]",
+      "links": [
+        {
+          "name": "A22_0",
+          "link": "panel36",
+          "pid": "27"
+        },
+        {
+          "name": "A22_1",
+          "link": "panel31",
+          "pid": "25"
+        }
+      ],
+      "name": "panel22",
+      "pid": "26",
+      "position": {
+        "x": "1030",
+        "y": "1197"
+      }
+    },
+    {
+      "text": "P36_0\nP36_1\n\n[[->panel42]]",
+      "links": [
+        {
+          "name": "",
+          "link": "panel42",
+          "pid": "28"
+        }
+      ],
+      "name": "panel36",
+      "pid": "27",
+      "position": {
+        "x": "719",
+        "y": "1036"
+      }
+    },
+    {
+      "text": "P42_0\nP42_1\n\n[[A42_0->panel47]]\n[[A42_1->panel28]]",
+      "links": [
+        {
+          "name": "A42_0",
+          "link": "panel47",
+          "pid": "29"
+        },
+        {
+          "name": "A42_1",
+          "link": "panel28",
+          "pid": "30"
+        }
+      ],
+      "name": "panel42",
+      "pid": "28",
+      "position": {
+        "x": "508",
+        "y": "1042"
+      }
+    },
+    {
+      "text": "P47_0\nP47_1\n\n[[A47_0->panel43]]\n[[A47_1->panel38]]\n[[A47_2->panel28]]",
+      "links": [
+        {
+          "name": "A47_0",
+          "link": "panel43",
+          "pid": "31"
+        },
+        {
+          "name": "A47_1",
+          "link": "panel38",
+          "pid": "32"
+        },
+        {
+          "name": "A47_2",
+          "link": "panel28",
+          "pid": "30"
+        }
+      ],
+      "name": "panel47",
+      "pid": "29",
+      "position": {
+        "x": "513",
+        "y": "1436"
+      }
+    },
+    {
+      "text": "P28_0\nP28_1\n\n[[->panel23]]",
+      "links": [
+        {
+          "name": "",
+          "link": "panel23",
+          "pid": "42"
+        }
+      ],
+      "name": "panel28",
+      "pid": "30",
+      "position": {
+        "x": "135",
+        "y": "1139"
+      }
+    },
+    {
+      "text": "P43_0\n\n[[->panel58]]",
+      "links": [
+        {
+          "name": "",
+          "link": "panel58",
+          "pid": "40"
+        }
+      ],
+      "name": "panel43",
+      "pid": "31",
+      "position": {
+        "x": "528",
+        "y": "1668"
+      }
+    },
+    {
+      "text": "P38_0\nP38_1\n\n[[A38_0->panel50]]\n[[A38_1->panel46]]\n[[A38_2->panel21]]",
+      "links": [
+        {
+          "name": "A38_0",
+          "link": "panel50",
+          "pid": "33"
+        },
+        {
+          "name": "A38_1",
+          "link": "panel46",
+          "pid": "34"
+        },
+        {
+          "name": "A38_2",
+          "link": "panel21",
+          "pid": "35"
+        }
+      ],
+      "name": "panel38",
+      "pid": "32",
+      "position": {
+        "x": "690",
+        "y": "1536"
+      }
+    },
+    {
+      "text": "P50_0\nP50_1\n\n[[A50_0->panel25]]\n[[A50_1->panel46]]\n[[A50_2->panel21]]",
+      "links": [
+        {
+          "name": "A50_0",
+          "link": "panel25",
+          "pid": "36"
+        },
+        {
+          "name": "A50_1",
+          "link": "panel46",
+          "pid": "34"
+        },
+        {
+          "name": "A50_2",
+          "link": "panel21",
+          "pid": "35"
+        }
+      ],
+      "name": "panel50",
+      "pid": "33",
+      "position": {
+        "x": "1053",
+        "y": "1569"
+      },
+      "tags": [
+        "checkpoint"
+      ]
+    },
+    {
+      "text": "P46_0\nP46_1\n\n[[A46_0->panel60]]\n[[A46_1->panel21]]\n[[A46_2->panel13]]",
+      "links": [
+        {
+          "name": "A46_0",
+          "link": "panel60",
+          "pid": "38"
+        },
+        {
+          "name": "A46_1",
+          "link": "panel21",
+          "pid": "35"
+        },
+        {
+          "name": "A46_2",
+          "link": "panel13",
+          "pid": "37"
+        }
+      ],
+      "name": "panel46",
+      "pid": "34",
+      "position": {
+        "x": "884",
+        "y": "1686"
+      },
+      "tags": [
+        "checkpoint"
+      ]
+    },
+    {
+      "text": "P21_0\nP21_1\n\n[[->panel28]]",
+      "links": [
+        {
+          "name": "",
+          "link": "panel28",
+          "pid": "30"
+        }
+      ],
+      "name": "panel21",
+      "pid": "35",
+      "position": {
+        "x": "746",
+        "y": "1340"
+      }
+    },
+    {
+      "text": "P25_0\nP25_1\nPGAME_OVER\n\n[[->splash]]",
+      "links": [
+        {
+          "name": "",
+          "link": "splash",
+          "pid": "7"
+        }
+      ],
+      "name": "panel25",
+      "pid": "36",
+      "position": {
+        "x": "1192",
+        "y": "1404"
+      },
+      "tags": [
+        "achievement:30"
+      ]
+    },
+    {
+      "text": "P13_0\nP13_1\n\n[[->panel28]]",
+      "links": [
+        {
+          "name": "",
+          "link": "panel28",
+          "pid": "30"
+        }
+      ],
+      "name": "panel13",
+      "pid": "37",
+      "position": {
+        "x": "1048",
+        "y": "1341"
+      }
+    },
+    {
+      "text": "P60_0\n\n[[->panel61]]",
+      "links": [
+        {
+          "name": "",
+          "link": "panel61",
+          "pid": "39"
+        }
+      ],
+      "name": "panel60",
+      "pid": "38",
+      "position": {
+        "x": "1170",
+        "y": "1740"
+      }
+    },
+    {
+      "text": "P61_0\nPGAME_OVER\n\n[[->splash]]",
+      "links": [
+        {
+          "name": "",
+          "link": "splash",
+          "pid": "7"
+        }
+      ],
+      "name": "panel61",
+      "pid": "39",
+      "position": {
+        "x": "1312",
+        "y": "1567"
+      },
+      "tags": [
+        "achievement:50"
+      ]
+    },
+    {
+      "text": "P58_0\nP58_1\n\n[[->panel73]]",
+      "links": [
+        {
+          "name": "",
+          "link": "panel73",
+          "pid": "41"
+        }
+      ],
+      "name": "panel58",
+      "pid": "40",
+      "position": {
+        "x": "700",
+        "y": "1754"
       }
     },
     {
       "text": "Clique duas vezes nessa passagem para editá-la.",
-      "name": "panel17",
-      "pid": "24",
+      "name": "panel73",
+      "pid": "41",
       "position": {
-        "x": "986.6666666666669",
-        "y": "1047.3333333333333"
+        "x": "381",
+        "y": "1917"
+      }
+    },
+    {
+      "text": "P23_0\nP23_1\n\n[[A23_0->panel27]]\n[[A23_1->panel18]]\n[[A23_2->panel40]]",
+      "links": [
+        {
+          "name": "A23_0",
+          "link": "panel27",
+          "pid": "43"
+        },
+        {
+          "name": "A23_1",
+          "link": "panel18",
+          "pid": "44"
+        },
+        {
+          "name": "A23_2",
+          "link": "panel40",
+          "pid": "45"
+        }
+      ],
+      "name": "panel23",
+      "pid": "42",
+      "position": {
+        "x": "134",
+        "y": "1366"
+      },
+      "tags": [
+        "checkpoint"
+      ]
+    },
+    {
+      "text": "P27_0\n\n[[A27_0->panel52]]\n[[A27_1->panel39]]",
+      "links": [
+        {
+          "name": "A27_0",
+          "link": "panel52",
+          "pid": "46"
+        },
+        {
+          "name": "A27_1",
+          "link": "panel39",
+          "pid": "47"
+        }
+      ],
+      "name": "panel27",
+      "pid": "43",
+      "position": {
+        "x": "132",
+        "y": "1591"
+      },
+      "tags": [
+        "checkpoint"
+      ]
+    },
+    {
+      "text": "P18_0\nPGAME_OVER\n\n[[->splash]]",
+      "links": [
+        {
+          "name": "",
+          "link": "splash",
+          "pid": "7"
+        }
+      ],
+      "name": "panel18",
+      "pid": "44",
+      "position": {
+        "x": "540",
+        "y": "1255"
+      },
+      "tags": [
+        "achievement:60"
+      ]
+    },
+    {
+      "text": "P40_0\n\n[[A40_0->panel27]]\n[[A40_1->panel18]]",
+      "links": [
+        {
+          "name": "A40_0",
+          "link": "panel27",
+          "pid": "43"
+        },
+        {
+          "name": "A40_1",
+          "link": "panel18",
+          "pid": "44"
+        }
+      ],
+      "name": "panel40",
+      "pid": "45",
+      "position": {
+        "x": "347",
+        "y": "1488"
+      },
+      "tags": [
+        "checkpoint"
+      ]
+    },
+    {
+      "text": "P52_0\nP52_1\nPGAME_OVER\n\n[[->splash]]",
+      "links": [
+        {
+          "name": "",
+          "link": "splash",
+          "pid": "7"
+        }
+      ],
+      "name": "panel52",
+      "pid": "46",
+      "position": {
+        "x": "321",
+        "y": "1691"
+      },
+      "tags": [
+        "achievement:70"
+      ]
+    },
+    {
+      "text": "P39_0\nP39_1\n\n[[->panel73]]",
+      "links": [
+        {
+          "name": "",
+          "link": "panel73",
+          "pid": "41"
+        }
+      ],
+      "name": "panel39",
+      "pid": "47",
+      "position": {
+        "x": "128",
+        "y": "1838"
       }
     }
   ],
