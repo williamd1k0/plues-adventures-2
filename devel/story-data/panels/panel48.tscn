@@ -7,18 +7,20 @@
 
 [node name="TextBase" parent="."]
 
-text = "P20_0
-P20_1
-PGAME_OVER"
+text = "P48_0
+P48_1"
 tr_replace = true
 
 [node name="Choice" parent="Choices" instance=ExtResource( 2 )]
 
-margin/right = 658.0
-margin/bottom = 9.0
-goto_id = "splash"
-id_type = 0
-actions = 2
-achievement_id = "20"
+text = "A48_0"
+goto_id = "panel95"
+actions = 1
+
+[node name="Choice 2" parent="Choices" instance=ExtResource( 2 )]
+
+text = "A48_1"
+goto_id = "panel31"
+actions = 1
 
 

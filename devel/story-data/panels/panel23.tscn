@@ -1,0 +1,40 @@
+[gd_scene load_steps=3 format=1]
+
+[ext_resource path="res://game/items/StoryPanel.tscn" type="PackedScene" id=1]
+[ext_resource path="res://game/items/Choice.tscn" type="PackedScene" id=2]
+
+[node name="StoryPanel" instance=ExtResource( 1 )]
+
+[node name="TextBase" parent="."]
+
+text = "P23_0
+P23_1"
+tr_replace = true
+
+[node name="Choice" parent="Choices" instance=ExtResource( 2 )]
+
+margin/right = 658.0
+margin/bottom = 9.0
+text = "A23_0"
+goto_id = "panel27"
+actions = 1
+
+[node name="Choice 2" parent="Choices" instance=ExtResource( 2 )]
+
+margin/top = 13.0
+margin/right = 658.0
+margin/bottom = 22.0
+text = "A23_1"
+goto_id = "panel18"
+actions = 1
+
+[node name="Choice 3" parent="Choices" instance=ExtResource( 2 )]
+
+margin/top = 26.0
+margin/right = 658.0
+margin/bottom = 35.0
+text = "A23_2"
+goto_id = "panel40"
+actions = 1
+
+
