@@ -42,132 +42,134 @@ P15_2,{c}(A luta começa!)$,{c}(A luta começa!)
 A15_0,Lutar!$,Lutar!
 A15_0,Fugir!$,Fugir!
 ,,
-P4_0,,(Plue lança uma pedrinha)
-P4_1,,Mestre Plue!! Essa pedrinha não vai derrotá-lo!
+P4_0,,{c}(Plue lança uma pedrinha)
+P4_1,,[Griff] Mestre Plue!! Essa pedrinha não vai derrotá-lo!
 ,,
-P5_0,,[Guarda] Ouch! Eu... me rendo!
-P5_1,,"[Griff] Tá de brincadeira, né‚!!!"
+P5_0,,[Guarda] Aii! Eu... me rendo!
+P5_1,,"[Griff] Tá de brincadeira, né!!!"
 ,,
 P30_0,,[Plue e Griff] AaaaaAAAiieeEE!!!
 P30_1,,[Guarda] Ei! Esperem!
+P30_2,,{c}(Guarda tropeça em uma pedra)
 ,,
-P6_0,,[Guarda] Vocˆs sÆo fortes... O Rei os aguarda no castelo... 
+P6_0,,[Guarda] Vocês são fortes... O Rei os aguarda no castelo... 
 P6_1,,[Griff] Como foi que ele virou guarda? 
 ,,
-P19_0,,(Castelo de Carmella) 
+P19_0,,{c}(Castelo de Carmella) 
 P19_1,,"[Rei Carmella] Plue, Griff, sejam bem-vindos!! "
 P19_2,,"[Rei Carmella] Acho que já  estão a par da situação, mas podem me perguntar o que quiserem."
 ,,
 P26_0,,[Rei Carmella] O que vocês querem saber? 
 A26_0,,O que é a Jóia Doce? 
-A26_1,,Quem é o Mago Maligno? 
+A26_1,,Quem é o Mago Malégno? 
 A26_2,,Quais são as suas medidas? 
 A26_3,,Pode nos dar uma dica? 
 A26_4,,Já temos o que precisamos! 
 ,,
-P29_0,,[Rei Carmella] Ele usa magia de pudins e tem uma cara de mal. 
-A29_0,,Onde ele está ? 
-A29_1,,Perguntar outra coisa. 
+P29_0,,[Rei Carmella] Ele usa magia de pudins e tem uma cara de mal.
+A29_0,,Onde ele está?
+A29_1,,Perguntar outra coisa.
 ,,
-P44_0,,"[Rei Carmella] Indo em direção ao norte, vocês chegarão ao Vale Secreto...  lá que ele se esconde."
+P44_0,,"[Rei Carmella] Indo em direção ao norte, vocês chegarão ao Vale Secreto... É lá que ele se esconde."
 A44_0,,Por que você mesmo não vai? 
 A44_1,,Perguntar outra coisa. 
 ,,
 P54_0,,[Rei Carmella] É trabalho demais!!!
-P54_1,,"[Griff] Ah, então tá, né‚…"
+P54_1,,"[Griff] Ah, então tá, né…"
 ,,
 P3_0,,"[Rei Carmella] Foi dito isso no Prólogo, não leu não? "
 P3_1,,[Griff] Ééér...
 ,,
 P37_0,,"[Griff] Por que está perguntando isso, Mestre Plue?"
 ,,
-P56_0,,"[Rei Carmella] O mago é muito trapaceiro e as perguntas dele têm uma ""resposta dentro da resposta"". Lembre-se disso!"
+P56_0,,"[Rei Carmella] O mago é muito trapaceiro e as perguntas dele têm uma ""resposta dentro da resposta"". Lembrem-se disso!"
 ,,
 P16_0,,[Rei Carmella] Tomem cuidado!! Ofereço um monte de balas como recompensa!!
 P16_1,,[Griff] Certo!! Vamos lá!! 
-P16_2,,{c} A aventura vai começar
+P16_2,,{c}(A aventura vai começar)
 ,,
 P17_0,,[Griff] Saímos de Carmella... Para onde vamos agora?
-A17_0,,Castelo do inferno
-A17_1,,Vale secreto
+A17_0,,Castelo do Inferno
+A17_1,,Vale Secreto
 ,,
 P31_0,,[Monstros] GrooOOoooaaaAAaarrRRrrr!!!
 P31_1,,[Griff] N-Não parece ser um lugar muito agradável…
+P31_2,,{c}(Plue e Griff erraram o caminho)
 ,,
-P22_0,,[Griff] Qual ‚ mesmo a direção?
+P22_0,,[Griff] Qual era mesmo a direção?
 A22_0,,Norte.
 A22_1,,Sul.
 ,,
-P36_0,, (Plue e Griff foram para o Norte)
+P36_0,,{c}(Plue e Griff foram para o Norte)
 P36_1,,"[Griff] O-Olha, uma floresta."
 ,,
-P42_0,,(Floresta do Macho) 
+P42_0,,{c}(Floresta do Macho) 
 P42_1,,[Griff] Essas árvores musculosas... são sinistras! 
-A42_0,,Caminho da direita. 
-A42_1,,Caminho da esquerda. 
+A42_0,,Vamos para o caminho da direita. 
+A42_1,,Vamos para o caminho da esquerda. 
 ,,
 P47_0,,[Griff] Tem uma flor estranha aqui.
-P47_1,,(Uma flor musculosa aparece!)
+P47_1,,{c}(Uma flor musculosa aparece)
 A47_0,,Dançar.
 A47_1,,Arrancar. 
-A47_2,,Voltar e ir pela esquerda! 
+A47_2,,Voltar e ir pela esquerda.
 ,,
-P38_0,,[Muscle Flower] Ei! O que estão fazendo!! 
-P38_1,,(A briga começa!) 
-A38_0,,Soco do Plue! 
-A38_1,,Ataque do Griff! 
-A38_2,,Enterrar! 
+P38_0,,[Flor Monstro] Ei! O que estão fazendo!! 
+P38_1,,{c}(A briga começa) 
+A38_0,,Soco do Plue.
+A38_1,,Ataque do Griff.
+A38_2,,Enterrar.
 ,,
 P46_0,,[Atenção] Esse golpe pode por a vida de Griff em risco.
-P46_1,, Tem certeza que quer usar?
-A46_0,,"Sim, usar! "
-A46_1,,"Não, enterrar! "
-A46_2,,"Não, fugir! "
+P46_1,,[Griff] Tem certeza que quer usar?
+A46_0,,"Sim, usar."
+A46_1,,"Não, enterrar."
+A46_2,,"Não, fugir."
 ,,
-P60_0,,(Griff vira um Super Bastão)
+P60_0,,{c}(Griff vira um Super Bastão)
 ,,
-P61_0,,[Plue] ...Pu-puuun…
-P61_1,,"(Vocês derrotaram a planta esquisita, mas o Griff também se foi.)"
+P61_0,,"{c}(Vocês derrotaram a planta esquisita, mas o Griff também se foi)"
 ,,
 P13_0,,[Griff] Ufa! Conseguimos escapar!
-P13_1,,Vamos para o caminho da esquerda.
+P13_1,,[Griff] Vamos para o caminho da esquerda.
 ,,
-P28_0,,(Penhasco dos Cogumelos)
-P28_1,,[Griff] Mestre Plue!! Não d  pra passar para o outro lado!
+P28_0,,{c}(Penhasco dos Cogumelos)
+P28_1,,[Griff] Mestre Plue!! Não dá pra passar para o outro lado!
 ,,
-P23_0,,[Griff] Aqui tem dois cogumelos enormes e esquisitos! E também tem duas placas com algo escrito. 
-P23_1,,ARREGA. NÃO  ARREGA.
+P23_0,,[Griff] Aqui tem dois cogumelos enormes e esquisitos!
+P23_1,,[Griff] E também tem duas placas com algo escrito. 
 A23_0,,Pular sobre os cogumelos. 
 A23_1,,"Comer o cogumelo da placa ""Arrega"". "
 A23_2,,Observar melhor. 
 ,,
-P18_0,,"(Devia ter ""arregado""! Era veneno. Você está morto!!)"
+P18_0,,"{c}(Devia ter ""arregado""! Era veneno. Você está morto)"
 ,,
-P40_0,,[Griff] Vamos pular em qual dos cogumelos?
-A40_0,,"No cogumelo da placa ""Não Arrega""."
-A40_1,,"No cogumelo da placa ""Arrega""."
+P40_0,,[Griff] Veja! A parte de cima é idêntica. Será que tem algum significado?
+A40_0,,Pular sobre os cogumelos. 
+A40_1,,"Comer o cogumelo da placa ""Arrega"". "
 ,,
 P27_0,,[Griff] Vamos pular em qual dos cogumelos?
 A27_0,,"No cogumelo da placa ""Não Arrega""."
 A27_1,,"No cogumelo da placa ""Arrega""."
 ,,
-P52_0,,"(A Placa estava um pouco falhada, deveria estar escrito ""Não Carrega""!)"
-P52_1,,(Plue e Griff caíram do penhasco) 
+P52_0,,"{c}(A Placa estava um pouco falhada, deveria estar escrito ""Não Carrega"")"
+P52_1,,{c}(Plue e Griff caíram do penhasco) 
 ,,
-P39_0,,"(A Placa estava um pouco falhada, deveria estar escrito ""Carrega""!) "
+P39_0,,"{c}(A Placa estava um pouco falhada, deveria estar escrito ""Carrega"") "
 P39_1,,[Griff] Conseguimos!! Atravessamos o penhasco!! 
 ,,
-P43_0,,(Plue faz uma dancinha) 
+P43_0,,{c}(Plue faz uma dancinha) 
+P43_1,,[Flor Monstro] Oh! Você dança bem. Gostei.
 ,,
-P58_0,, O meu nome ‚ Muscle Flower. Não tenho nenhum motivo específico para estar aqui. Podem seguir adiante.
+P58_0,,[Flor Monstro] O meu nome é Flor Monstro. Não tenho nenhum motivo específico para estar aqui. Podem seguir adiante.
 P58_1,,[Griff] É o que faremos!
 ,,
-P50_0,,(Plue dá um soquinho!)
-P50_1,,[Muscle Flower]  Isso não dói!!
+P50_0,,{c}(Plue dá um soquinho!)
+P50_1,,[Flor Monstro] Isso não dói!!
 ,,
-P21_0,,[Muscle Flower] Ei! Est  me enterrando de ponta cabe‡a! 
-P21_1,,[Griff] R pido! Vamos para o caminho da esquerda.
+P21_0,,[Flor Monstro] Ei! Está me enterrando de ponta cabeça! 
+P21_1,,[Griff] Rápido! Vamos para o caminho da esquerda.
 ,,
-P25_0,,(Muscle Flower d  um socão!) 
-P25_1,,[Plue] Argh!!! 
-P25_2,,[Griff] Mestre Plue!! Nããããããããooo!!
+P25_0,,{c}(Flor Monstro deu um socão) 
+P25_1,,[Griff] Mestre Plue!! Nããããããããooo!!
+P25_2,,{c}(Plue foi esmagado)
