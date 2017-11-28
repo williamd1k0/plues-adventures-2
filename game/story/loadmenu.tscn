@@ -1,0 +1,49 @@
+[gd_scene load_steps=4 format=1]
+
+[ext_resource path="res://game/items/StoryPanel.tscn" type="PackedScene" id=1]
+[ext_resource path="res://game/items/Choice.tscn" type="PackedScene" id=2]
+
+[sub_resource type="GDScript" id=1]
+
+script/source = "extends Node
+
+export(String, DIR) var story_path
+const CHOICE = preload('res://game/items/Choice.tscn')
+
+func _ready():
+	print(SaveData.get_save_points())
+	for p in SaveData.get_save_points():
+		var scn = load(story_path.plus_file('%s.tscn' % p)).instance()
+		var c = CHOICE.instance()
+		c.set_text(scn.get_node('TextBase').get_text().split('\\n')[0])
+		scn.free()
+		c.goto_id = p
+		get_parent().call_deferred('add_child', c)
+	get_parent().call_deferred('create_numbered_list')
+	queue_free()
+"
+
+[node name="StoryPanel" instance=ExtResource( 1 )]
+
+[node name="TextBase" parent="."]
+
+text = "MENU_LOAD"
+
+[node name="Choices" parent="."]
+
+numbered_list = false
+
+[node name="Choice" parent="Choices" instance=ExtResource( 2 )]
+
+visibility/visible = false
+margin/right = 658.0
+margin/bottom = 9.0
+goto_id = "menu"
+id_type = 0
+
+[node name="ListSavedGames" type="Node" parent="Choices"]
+
+script/script = SubResource( 1 )
+story_path = "res://game/story"
+
+

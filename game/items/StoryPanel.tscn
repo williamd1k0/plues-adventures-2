@@ -11,10 +11,14 @@ export(bool) var numbered_list = true
 
 func _ready():
 	if numbered_list and get_child_count() > 1:
+		create_numbered_list()
+
+func create_numbered_list():
 		var n = 1
 		for child in get_children():
-			child.set_text('%s - %s' % [n, child.get_text()])
-			n+=1
+			if child.has_method('get_text') and not child.is_hidden():
+				child.set_text('%s - %s' % [n, child.get_text()])
+				n+=1
 "
 
 [node name="StoryPanel" type="Panel"]

@@ -45,6 +45,7 @@ margin/top = 13.0
 margin/right = 658.0
 margin/bottom = 22.0
 text = "MENU_LOAD"
+goto_id = "loadmenu"
 
 [node name="HasSavePoints" type="Node" parent="Choices/Choice1"]
 

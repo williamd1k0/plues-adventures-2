@@ -4,7 +4,7 @@
 
 script/source = "extends Node
 
-var SAVE_PATH = 'user://save%s.sav' % OS.get_unix_time()
+var SAVE_PATH = 'user://save%s.sav' % 1#OS.get_unix_time()
 var data = {
 	\"savepoints\": [],
 	\"achievements\": []
@@ -22,7 +22,8 @@ func add_save_point(id):
 func get_save_points(limit=5):
 	var sp = []
 	for s in range(min(data.savepoints.size(), limit)):
-		sp.append(data.savepoints[s])
+		if not data.savepoints[s] in sp:
+			sp.append(data.savepoints[s])
 	return sp
 
 func has_save_points():
