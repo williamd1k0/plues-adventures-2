@@ -29,6 +29,9 @@ func _ready():
 func generate_panels():
 	var f = File.new()
 	for panel in data_json['passages']:
+		if 'tags' in panel and 'ignore' in panel['tags']:
+			prints('Ignoring panel', panel['name'])
+			continue
 		var file = path.plus_file(panel['name']+'.tscn')
 		if not overwrite and f.file_exists(file):
 			prints('Ignoring file:', file)
@@ -37,7 +40,20 @@ func generate_panels():
 		sp.get_node(\"TextBase\").set_message_translation(false)
 		sp.get_node(\"TextBase\").set_text(panel['text'].split('\\n\\n')[0])
 		sp.get_node(\"TextBase\").tr_replace = true
-		if 'links' in panel:
+		if 'tags' in panel and 'gameover' in panel['tags']:
+			var c = choice.instance(true)
+			c.set_message_translation(false)
+			c.goto_id = 'splash'
+			c.choice_id = ''
+			c.set_text('')
+			c.id_type = 0
+			for t in panel['tags']:
+				if t.begins_with('achievement'):
+					c.actions |= A_ACHIEVEMENT
+					c.achievement_id = t.split(':')[-1]
+			sp.get_node(\"Choices\").add_child(c, true)
+			c.set_owner(sp)
+		elif 'links' in panel:
 			for link in panel['links']:
 				var c = choice.instance(true)
 				c.set_message_translation(false)
@@ -67,6 +83,6 @@ data = "res://devel/story-data/story.json"
 path = "res://devel/story-data/panels"
 story_panel = ExtResource( 1 )
 choice = ExtResource( 2 )
-overwrite = false
+overwrite = true
 
 
