@@ -23,6 +23,6 @@ goto_id = "panel69"
 
 [node name="Choice 3" parent="Choices" instance=ExtResource( 2 )]
 
-goto_id = "panelx"
+goto_id = "panel11"
 
 

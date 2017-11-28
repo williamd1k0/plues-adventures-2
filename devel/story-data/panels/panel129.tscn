@@ -7,9 +7,8 @@
 
 [node name="TextBase" parent="."]
 
-text = "P120_0
-P120_1
-PGOOD_END"
+text = "P129_0
+P129_1"
 tr_replace = true
 
 [node name="Choice" parent="Choices" instance=ExtResource( 2 )]
@@ -17,6 +16,6 @@ tr_replace = true
 goto_id = "splash"
 id_type = 0
 actions = 2
-achievement_id = "99"
+achievement_id = "100"
 
 

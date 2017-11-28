@@ -7,16 +7,14 @@
 
 [node name="TextBase" parent="."]
 
-text = "P120_0
-P120_1
-PGOOD_END"
+text = "P71_0
+P71_1
+P71_2"
 tr_replace = true
 
 [node name="Choice" parent="Choices" instance=ExtResource( 2 )]
 
-goto_id = "splash"
+goto_id = "panel80"
 id_type = 0
-actions = 2
-achievement_id = "99"
 
 

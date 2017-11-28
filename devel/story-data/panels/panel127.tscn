@@ -10,7 +10,7 @@
 text = "P127_0
 P127_1
 P127_2
-PEND"
+PGOOD_END"
 tr_replace = true
 
 [node name="Choice" parent="Choices" instance=ExtResource( 2 )]
