@@ -1,10 +1,11 @@
 ,en,pt
-PPLUE,[Plue] …,[Plue] …
 PGAME_OVER,{c}[GAME OVER],{c}[FIM DO JOGO]
+PGOOD_END,{c}[GOOD ENDING],{c}[FINAL FELIZ]
+PTRUE_END,{c}[TRUE ENDING],{c}[FINAL VERDADEIRO]
 ,,
 P1_0,{c}(Synopsis),{c}(Prólogo)
-P1_1,"Once upon a time, in the Sweet World, there was a legendary treasure called the Sweet Gem, which was held by the Carmella Kingdom.","Era uma vez, no Mundo das Balas, existia um lendário tesouro chamado de Jóia Doce, que era mantido pelo Reino Carmella."
-P1_2,"The secret treasure of Sweet World has been stolen by an Evil Sorcerer. If the Sweet Gem disappears from Sweet World, all the sweets in the whole world will disappear along with it.","Mas, certo dia, este tesouro foi roubado por um Mago Malégno. Sem esta jóia, as balas do mundo inteiro irão desaparecer!"
+P1_1,"Once upon a time, in the Sweet World, there was a legendary treasure called the Sweet Gem, which was held by the Carmella Kingdom.","Era uma vez, no Mundo das Balas, existia um lendário tesouro chamado de Joia Doce, que era mantido pelo Reino Carmella."
+P1_2,"The secret treasure of Sweet World has been stolen by an Evil Sorcerer. If the Sweet Gem disappears from Sweet World, all the sweets in the whole world will disappear along with it.","Mas, certo dia, este tesouro foi roubado por um Mago Malégno. Sem esta joia, as balas do mundo inteiro irão desaparecer!"
 P1_3,"When Plue heard about this, he became determined to save the world’s sweets… Thus Plue and his friend Griff head towards Carmella.","Ao saberem disso, Plue e seu amigo Griff voltaram ao Reino Carmella para salvar as balas do mundo."
 ,,
 P2_0,{c}(You are Plue),{c}(Você é Plue)
@@ -19,7 +20,7 @@ A9_1,Nap.,Dormir.
 A9_2,Attack Griff!,Atacar Griff!
 ,,
 P20_0,[Griff] Waaah! It hurts!,[Griff] Aaaaii!! Isso não se faz!
-P20_1,"{c}Griff is furious, so he went home.",{c}Griff foi embora bravo!
+P20_1,"{c}(Griff is furious, so he went home)",{c}(Griff foi embora bravo)
 ,,
 P14_0,[Griff] Mestre Plue!! Vai anoitecer.$,[Griff] Mestre Plue!! Vai anoitecer.
 A14_0,Acordar.$,Acordar.
@@ -36,7 +37,7 @@ P8_1,[Guarda] Hã? Quem são vocês?$,[Guarda] Hã? Quem são vocês?
 A8_0,Falar com ele.$,Falar com ele.
 A8_1,Derrotar ele.$,Derrotar ele.
 ,,
-P15_0,[Guarda] Mm? Vieram ajudar a recuperar a Jóia Doce?$,[Guarda] Mm? Vieram ajudar a recuperar a Jóia Doce?
+P15_0,[Guarda] Mm? Vieram ajudar a recuperar a Joia Doce?$,[Guarda] Mm? Vieram ajudar a recuperar a Joia Doce?
 P15_1,[Guarda] Quero ver se são herois de verdade!$,[Guarda] Quero ver se são herois de verdade!
 P15_2,{c}(A luta começa!)$,{c}(A luta começa!)
 A15_0,Lutar!$,Lutar!
@@ -60,7 +61,7 @@ P19_1,,"[Rei Carmella] Plue, Griff, sejam bem-vindos!! "
 P19_2,,"[Rei Carmella] Acho que já  estão a par da situação, mas podem me perguntar o que quiserem."
 ,,
 P26_0,,[Rei Carmella] O que vocês querem saber? 
-A26_0,,O que é a Jóia Doce? 
+A26_0,,O que é a Joia Doce? 
 A26_1,,Quem é o Mago Malégno? 
 A26_2,,Quais são as suas medidas? 
 A26_3,,Pode nos dar uma dica? 
@@ -173,3 +174,179 @@ P21_1,,[Griff] Rápido! Vamos para o caminho da esquerda.
 P25_0,,{c}(Flor Monstro deu um socão) 
 P25_1,,[Griff] Mestre Plue!! Nããããããããooo!!
 P25_2,,{c}(Plue foi esmagado)
+,,
+P73_0,,{c}(Vale Secreto)
+P73_1,,[Griff] Este é o Vale Secreto. O Mago que roubou a Joia Doce deve estar em algum lugar por aqui.
+,,
+P74_0,,{c}(Visite os locais que forem suspeitos)
+A74_0,,Ir para a Caverna.
+A74_1,,Ir para a Casa da Caveira.
+A74_2,,Ir para a Tenda.
+,,
+P41_0,,{c}(Casa da Caveira)
+P41_1,,[Griff] Vamos investigar o local!
+A41_0,,Espada.
+A41_1,,Livro.
+A41_2,,Anel.
+A41_3,,Sair da casa.
+,,
+P68_0,,[Griff] O livro está trancado com um cadeado.
+A68_0,,Forçar.
+A68_1,,Procurar outra coisa.
+,,
+P72_0,,[Griff] Não abre de jeito nenhum!!
+,,
+P32_0,,{c}(Você encontrou a Exgatolibur)
+P32_1,,{c}(Plue não é forte o sulficiente para usá-la)
+P32_2,,{c}(Você também não possui inventário para guardá-la)
+,,
+P82_0,,"[Griff] E-Este é o artefato das trevas ""Dragon Man""!"
+A82_0,,Olhar direito.
+A82_1,,Usar.
+A82_2,,Verificar outra coisa.
+,,
+P33_0,,{c}(Olhando direito)
+A33_0,,Usar.
+A33_1,,Verificar outra coisa.
+,,
+P96_0,,{c}(Um dragão aparece)
+P96_1,,[Dragão] Gruuooooaaarrrrr!!
+P96_2,,[Griff] Aagh!! Um dragão!! Vamos fugir para a caverna!
+,,
+P64_0,,{c}(Tenda)
+P64_1,,[Griff] Ótimo! Vamos descançar um pouco.
+A64_0,,Voltar para a aventura.
+A64_1,,Quero voltar no tempo.
+A64_2,,Cansei de jogar esse troço.
+,,
+P81_0,,[Griff] Obrigado por torcerem por nós!
+P81_1,,{c}(As aventuras de Plue e Griff vão continuar na próxima vez)
+,,
+P91_0,,"{c}(Sieg Hart, O Defensor do Tempo aparece)"
+P91_1,,"[Sieg Hart] Olá, o meu nome é Sieg Hart. Eu controlo o fluxo do tempo."
+P91_2,,[Griff] D-De onde você surgiu?!
+,,
+P92_0,,[Sieg Hart] Eu os levarei para o tempo que quiserem.
+A92_0,,Voltar para o Castelo Carmella.
+A92_1,,Voltar para a Floresta do Macho.
+A92_2,,Voltar para o Penhasco do Cogumelo.
+A92_3,,Ir para o futuro.
+A92_4,,Deixa pra lá.
+,,
+P24_0,,{c}(10 anos depois)
+P24_1,,[Griff] Ei! Não dá mais pra recuperar a Joia Doce!!
+P24_2,,{c}(Não dá mais pra voltar)
+,,
+P35_0,,{c}(Caverna)
+P35_1,,[Griff] Não ouço nada. Mas sinto que o Mago está lá no fundo.
+A35_0,,Avançar.
+A35_1,,Ainda tem algo inacabado.
+,,
+P66_0,,[Griff] Ah! A caverna é um labirinto!!
+,,
+P77_0,,{c}(Isso foi trapaça. Não tem como chegar nessa parte do labirinto)
+P77_1,,"[Griff] Estou decepcionado com você, Mestre Plue."
+,,
+P48_0,,"[Griff] Agh, credo!! Tem uma caveira aqui!!"
+P48_1,,[Griff] Este caminho parece perigoso!
+A48_0,,Voltar.
+A48_1,,Seguir por este caminho.
+,,
+P95_0,,"[Griff] Ufa... Finalmente, chegamos."
+,,
+P100_0,,{c}(O Mago Malégno aparece)
+P100_1,,[Mago Malégno] Vocês vieram recuperar a Joia Doce?
+,,
+P97_0,,[Mago Malégno] Não vou devolver!
+P97_1,,{c}(A luta começa)
+P97_2,,{c}(Derrote o Mago Malégno)
+A97_0,,Atacar com o Chute do Plue.
+A97_1,,Atacar com a Broca do Plue.
+A97_2,,Aguarde o ataque do inimigo.
+,,
+P70_0,,{c}(Ele se esquivou)
+P70_1,,[Mago Malégno] Há! Tolo.
+,,
+P86_0,,{c}(Dddzzzzzzzzzz)
+P86_1,,[Griff] Mestre Plue!! Por que você está perfurando o chão?
+,,
+P88_0,,"{c}(Turno do inimigo, se defenda)"
+P88_1,,{c}(Um pudim está caindo do céu)
+P88_2,,[Griff] M-Mas que pudim gigante é esse!!
+A88_0,,Comer.
+A88_1,,Ignorar.
+,,
+P57_0,,{c}(Plash)
+P57_1,,"[Griff] Isso é pudim, não machuca!"
+P57_2,,[Mago Malégno] O quê?!
+,,
+P108_0,,[Plue] Nhac!!
+P108_1,,[Mago Malégno] O quê?!
+,,
+P78_0,,{c}(Agora é a vez do Plue)
+A78_0,,Explosão do Plue.
+A78_1,,Ataque Final do Plue.
+A78_2,,Fazer uma pausa.
+A78_3,,Lançar Plue.
+,,
+P103_0,,[Griff] Ei! Você não pode dormir agora!
+P103_1,,[Plue] ZzzzzZZzZZzzzzzZZZzz...
+,,
+P104_0,,{c}(Plue e Griff foram transformados em pudim enquanto dormiam)
+P104_1,,[Griff Pudim] Não nos coma!
+,,
+P67_0,,"[Griff] Você consegue fazer isso, Mestre Plue?"
+P67_1,,[Plue] Puuun... (Não consigo...)
+P67_2,,"[Griff] Se não consegue nem tente, né!"
+A67_0,,Ataque Final do Plue.
+A67_1,,Fazer uma pausa.
+A67_2,,Lançar Plue.
+,,
+P63_0,,"[Griff] Lá vai, Mestre Plue!"
+P63_1,,[Mago Malégno] Hã?
+,,
+P106_0,,{c}(Zaaaah)
+P106_1,,[Mago Malégno] AaaAAaghh!!!
+,,
+P107_0,,[Griff] Conseguimos!!
+P107_1,,[Plue] Puuun!!
+,,
+P119_0,,[Mago Malégno] Mmm... Nada mal...
+P119_1,,[Mago Malégno] Mas não vou simplesmente entregar a Joia Doce.
+P119_2,,[Mago Malégno] Respondam primeiro as minhas charadas.
+A119_0,,Resolver as charadas.
+A119_1,,Resolver na briga de qualquer jeito.
+,,
+P84_0,,[Griff] Ataque Final... Não vai me dizer que...
+P84_1,,[Atenção] É um golpe que põe a vida de Plue em risco.
+A84_0,,Usar ataque.
+A84_1,,Deixar pra lá.
+,,
+P113_0,,{c}(Kaboooooom)
+P113_1,,[Griff] Mestre Plue!!!
+,,
+P114_0,,[Griff] Hein?!
+P114_1,,"{c}(Na verdade, Plue só jogou uma bomba que tinha trazido consigo)"
+,,
+P102_0,,[Griff] Toma!!!
+P102_1,,[Plue] P-puuun!!!
+P102_2,,[Mago Malégno] E-Esperem... Me deixem fazer as charadas...
+A102_0,,"Tudo bem, não temos escolha."
+A102_1,,Continuar batendo.
+,,
+P85_0,,[Mago Malégno] Me deixem fazer as charadas!!!
+P85_1,,{c}(Pow)
+P85_2,,{c}(Paf)
+P85_3,,{c}(Bam)
+A85_0,,"Tudo bem, não temos escolha."
+A85_1,,Bater mais!!
+,,
+P112_0,,{c}(Acabaram com o Mago)
+P112_1,,[Griff] Até que enfim!!
+,,
+P121_0,,{c}(Mas... A Joia Doce foi destruída na briga)
+P121_1,,{c}(Plue e Griff vão se desculpar com o Rei)
+,,
+P127_0,,[Rei Carmella] Hã? Tudo bem. Já criamos uma joia nova.
+P127_1,,[Griff] Hein?! Dava pra criar?!
+P127_2,,"{c}(Então, para que Plue e Griff tiveram tanto trabalho?)"
