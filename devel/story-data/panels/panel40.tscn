@@ -7,17 +7,23 @@
 
 [node name="TextBase" parent="."]
 
-text = "P40_0"
+text = "P40_0
+MMUSHROOMS"
 tr_replace = true
 
 [node name="Choice" parent="Choices" instance=ExtResource( 2 )]
 
+margin/right = 658.0
+margin/bottom = 9.0
 text = "A40_0"
 goto_id = "panel27"
 actions = 1
 
 [node name="Choice 2" parent="Choices" instance=ExtResource( 2 )]
 
+margin/top = 13.0
+margin/right = 658.0
+margin/bottom = 22.0
 text = "A40_1"
 goto_id = "panel18"
 actions = 1

@@ -347,7 +347,7 @@
       }
     },
     {
-      "text": "P37_0\n\n[[->panel26]]",
+      "text": "MKING\nP37_0\n\n[[->panel26]]",
       "links": [
         {
           "name": "",
@@ -467,8 +467,8 @@
       "name": "panel31",
       "pid": "24",
       "position": {
-        "x": "1216",
-        "y": "1058"
+        "x": "1176",
+        "y": "1066.3333333333333"
       },
       "tags": [
         "achievement:40",
@@ -796,7 +796,7 @@
       }
     },
     {
-      "text": "P23_0\nP23_1\n\n[[A23_0->panel27]]\n[[A23_1->panel18]]\n[[A23_2->panel40]]",
+      "text": "P23_0\nP23_1\nMSIGNS\n\n[[A23_0->panel27]]\n[[A23_1->panel18]]\n[[A23_2->panel40]]",
       "links": [
         {
           "name": "A23_0",
@@ -869,7 +869,7 @@
       ]
     },
     {
-      "text": "P40_0\n\n[[A40_0->panel27]]\n[[A40_1->panel18]]",
+      "text": "P40_0\nMMUSHROOMS\n\n[[A40_0->panel27]]\n[[A40_1->panel18]]",
       "links": [
         {
           "name": "A40_0",
@@ -1003,7 +1003,7 @@
       "pid": "49",
       "position": {
         "x": "1789",
-        "y": "2716"
+        "y": "2714.3333333333335"
       }
     },
     {
@@ -1033,7 +1033,7 @@
       }
     },
     {
-      "text": "P66_0\n\n[[->panel95]]\n[[->panel48]]\n[[->panel77]]",
+      "text": "P66_0\nMLABYRINTH\n\n[[->panel95]]\n[[->panel48]]\n[[->panel77]]",
       "links": [
         {
           "name": "",
@@ -1391,7 +1391,7 @@
       }
     },
     {
-      "text": "P33_0\n\n[[A33_0->panel96]]\n[[A33_1->panel41]]",
+      "text": "P33_0\nMDRAGON\n\n[[A33_0->panel96]]\n[[A33_1->panel41]]",
       "links": [
         {
           "name": "A33_0",

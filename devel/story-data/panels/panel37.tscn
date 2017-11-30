@@ -7,7 +7,8 @@
 
 [node name="TextBase" parent="."]
 
-text = "P37_0"
+text = "MKING
+P37_0"
 tr_replace = true
 
 [node name="Choice" parent="Choices" instance=ExtResource( 2 )]
