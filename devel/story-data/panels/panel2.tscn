@@ -9,8 +9,7 @@
 
 text = "P2_0
 P2_1
-P2_2
-PPLUE"
+P2_2"
 tr_replace = true
 
 [node name="Choice" parent="Choices" instance=ExtResource( 2 )]

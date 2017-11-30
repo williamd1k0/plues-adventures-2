@@ -8,7 +8,7 @@
 [node name="TextBase" parent="."]
 
 text = "P12_0
-PPUPI
+P12_1
 PGAME_OVER"
 tr_replace = true
 

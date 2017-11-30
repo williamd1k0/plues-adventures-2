@@ -7,8 +7,8 @@
 
 [node name="TextBase" parent="."]
 
-text = "P78_0
-P78_1
+text = "P75_0
+P75_1
 PGAME_OVER"
 tr_replace = true
 

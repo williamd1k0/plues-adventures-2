@@ -8,26 +8,39 @@
 [node name="TextBase" parent="."]
 
 text = "P83_0
-P83_1"
+P83_1
+MKANJI"
+char_time = 0.1
 tr_replace = true
 
 [node name="Choice" parent="Choices" instance=ExtResource( 2 )]
 
+margin/right = 658.0
+margin/bottom = 9.0
 text = "A83_0"
 goto_id = "panel109"
 
 [node name="Choice 2" parent="Choices" instance=ExtResource( 2 )]
 
+margin/top = 13.0
+margin/right = 658.0
+margin/bottom = 22.0
 text = "A83_1"
 goto_id = "panel65"
 
 [node name="Choice 3" parent="Choices" instance=ExtResource( 2 )]
 
+margin/top = 26.0
+margin/right = 658.0
+margin/bottom = 35.0
 text = "A83_2"
 goto_id = "panel94"
 
 [node name="Choice 4" parent="Choices" instance=ExtResource( 2 )]
 
+margin/top = 39.0
+margin/right = 658.0
+margin/bottom = 48.0
 text = "A83_3"
 goto_id = "panel34"
 

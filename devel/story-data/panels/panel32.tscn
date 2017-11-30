@@ -8,7 +8,8 @@
 [node name="TextBase" parent="."]
 
 text = "P32_0
-P32_1"
+P32_1
+P32_2"
 tr_replace = true
 
 [node name="Choice" parent="Choices" instance=ExtResource( 2 )]

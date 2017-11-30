@@ -8,6 +8,7 @@
 [node name="TextBase" parent="."]
 
 text = "P49_0
+MCROSS
 PGAME_OVER"
 tr_replace = true
 
