@@ -44,6 +44,6 @@ id_type = 0
 [node name="ListSavedGames" type="Node" parent="Choices"]
 
 script/script = SubResource( 1 )
-story_path = "res://game/story"
+story_path = "res://game/panels/story"
 
 
