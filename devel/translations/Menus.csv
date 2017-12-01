@@ -1,5 +1,5 @@
 ,en,pt
-MENU_PLAY,Play,Jogar
+MENU_PLAY,"Play (not available in English yet, sorry)",Jogar
 MENU_LOAD,Load,Carregar
 MENU_SETTINGS,Settings,Configurações
 MENU_HELP,Help,Ajuda
@@ -14,3 +14,5 @@ MENU_CLEAR,Clear data,Apagar dados
 MENU_LANGUAGE_TITLE,Choose a language or press Return to cancel.,Escolha um idioma ou pressione Enter para cancelar.
 MENU_PT,Português,Português
 MENU_EN,English,English
+,,
+MENU_LOAD_TITLE,Choose a save point or press Return to back to main menu.,Escolha uma passagem salva do jogo ou pressione Enter para voltar.

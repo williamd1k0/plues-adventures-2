@@ -14,12 +14,15 @@ text = ""
 
 [node name="TextBase" parent="TextBase" instance=ExtResource( 2 )]
 
+tr_replace = false
+
 [node name="TextBase 2" parent="TextBase" instance=ExtResource( 3 )]
 
 margin/top = 195.0
 margin/right = 603.0
 margin/bottom = 214.0
 text = "MENU_SETTINGS_TITLE"
+tr_replace = false
 
 [node name="Choices" parent="."]
 
@@ -32,6 +35,7 @@ margin/right = 658.0
 margin/bottom = 9.0
 text = "MENU_VIDEO"
 goto_id = "videomenu"
+selectable = false
 
 [node name="Choice 2" parent="Choices" instance=ExtResource( 4 )]
 
@@ -40,6 +44,7 @@ margin/right = 658.0
 margin/bottom = 22.0
 text = "MENU_AUDIO"
 goto_id = "audiomenu"
+selectable = false
 
 [node name="Choice 3" parent="Choices" instance=ExtResource( 4 )]
 
@@ -48,6 +53,7 @@ margin/right = 658.0
 margin/bottom = 35.0
 text = "MENU_LANGUAGE"
 goto_id = "langmenu"
+selectable = true
 
 [node name="Choice 4" parent="Choices" instance=ExtResource( 4 )]
 
@@ -56,6 +62,7 @@ margin/right = 658.0
 margin/bottom = 48.0
 text = "MENU_CLEAR"
 goto_id = "menu"
+selectable = false
 
 [node name="Choice 5" parent="Choices" instance=ExtResource( 4 )]
 
@@ -64,5 +71,6 @@ margin/right = 658.0
 margin/bottom = 61.0
 goto_id = "menu"
 id_type = 0
+selectable = true
 
 

@@ -12,10 +12,10 @@ export(int, "Choice ID", "Label text", "First character") var id_type = 0
 export(int, FLAGS, "Checkpoint", "Achievement", "Script") var actions = 0
 export(String) var achievement_id
 export(Script) var custom_script
-var selectable = true
+export(bool) var selectable = true
 
 func _ready():
-	set_hidden(get_choice_id() in [null, ""])
+	set_hidden(get_choice_id() in [null, ""] or not selectable)
 
 func get_choice_id():
 	if id_type == 1:

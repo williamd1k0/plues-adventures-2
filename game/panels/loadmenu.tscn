@@ -1,7 +1,9 @@
-[gd_scene load_steps=4 format=1]
+[gd_scene load_steps=6 format=1]
 
 [ext_resource path="res://game/items/StoryPanel.tscn" type="PackedScene" id=1]
-[ext_resource path="res://game/items/Choice.tscn" type="PackedScene" id=2]
+[ext_resource path="res://game/items/misc/TitleScreen.tscn" type="PackedScene" id=2]
+[ext_resource path="res://game/items/TextBase.tscn" type="PackedScene" id=3]
+[ext_resource path="res://game/items/Choice.tscn" type="PackedScene" id=4]
 
 [sub_resource type="GDScript" id=1]
 
@@ -27,19 +29,33 @@ func _ready():
 
 [node name="TextBase" parent="."]
 
-text = "MENU_LOAD"
+margin/bottom = 265.0
+text = ""
+
+[node name="TextBase" parent="TextBase" instance=ExtResource( 2 )]
+
+tr_replace = false
+
+[node name="TextBase 2" parent="TextBase" instance=ExtResource( 3 )]
+
+margin/top = 195.0
+margin/right = 628.0
+margin/bottom = 321.0
+text = "MENU_LOAD_TITLE"
+tr_replace = false
 
 [node name="Choices" parent="."]
 
 numbered_list = false
 
-[node name="Choice" parent="Choices" instance=ExtResource( 2 )]
+[node name="Choice" parent="Choices" instance=ExtResource( 4 )]
 
 visibility/visible = false
 margin/right = 658.0
 margin/bottom = 9.0
 goto_id = "menu"
 id_type = 0
+selectable = true
 
 [node name="ListSavedGames" type="Node" parent="Choices"]
 

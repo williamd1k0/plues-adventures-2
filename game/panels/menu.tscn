@@ -38,6 +38,7 @@ margin/right = 658.0
 margin/bottom = 9.0
 text = "MENU_PLAY"
 goto_id = "panel1"
+selectable = true
 
 [node name="Choice1" parent="Choices" instance=ExtResource( 3 )]
 
@@ -46,6 +47,7 @@ margin/right = 658.0
 margin/bottom = 22.0
 text = "MENU_LOAD"
 goto_id = "loadmenu"
+selectable = true
 
 [node name="HasSavePoints" type="Node" parent="Choices/Choice1"]
 
@@ -58,19 +60,24 @@ margin/right = 658.0
 margin/bottom = 35.0
 text = "MENU_SETTINGS"
 goto_id = "settingsmenu"
+selectable = true
 
 [node name="Choice3" parent="Choices" instance=ExtResource( 3 )]
 
+visibility/visible = false
 margin/top = 39.0
 margin/right = 658.0
 margin/bottom = 48.0
 text = "MENU_HELP"
+selectable = false
 
 [node name="Choice4" parent="Choices" instance=ExtResource( 3 )]
 
+visibility/visible = false
 margin/top = 52.0
 margin/right = 658.0
 margin/bottom = 61.0
 text = "MENU_EXTRA"
+selectable = false
 
 
