@@ -83,7 +83,7 @@
       ]
     },
     {
-      "text": "P14_0\nP14_1\n\n[[A14_0->panel9]]\n[[A14_1->panel12]]\n[[A14_2->panel20]]",
+      "text": "P14_0\n\n[[A14_0->panel9]]\n[[A14_1->panel12]]\n[[A14_2->panel20]]",
       "links": [
         {
           "name": "A14_0",
@@ -173,7 +173,7 @@
       }
     },
     {
-      "text": "P15_0\nP15_1\n\n[[A15_0->panel4]]\n[[A15_1->panel30]]",
+      "text": "P15_0\nP15_1\nP15_2\n\n[[A15_0->panel4]]\n[[A15_1->panel30]]",
       "links": [
         {
           "name": "A15_0",

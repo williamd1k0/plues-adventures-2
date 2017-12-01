@@ -22,426 +22,426 @@ A9_2,Attack Griff!,Atacar Griff!
 P20_0,[Griff] Waaah! It hurts!,[Griff] Aaaaii!! Isso não se faz!
 P20_1,"{c}(Griff is furious, so he went home)",{c}(Griff foi embora bravo)
 ,,
-P14_0,[Griff] Mestre Plue!! Vai anoitecer.$,[Griff] Mestre Plue!! Vai anoitecer.
-A14_0,Acordar.$,Acordar.
-A14_1,Dormir até a noite.$,Dormir até a noite.
-A14_2,Atacar Griff!$,Atacar Griff!
-,,
-P12_0,[Griff] Mestre Plue. O que viemos fazer aqui?$,[Griff] Mestre Plue. O que viemos fazer aqui?
-P12_1,[Plue] ZzzzzZZzZZzzzzzZZZzz$,[Plue] ZzzzzZZzZZzzzzzZZZzz
+P14_0,[Griff] Mestre Plue!! Vai anoitecer.,[Griff] Mestre Plue!! Vai anoitecer.
+A14_0,Acordar.,Acordar.
+A14_1,Dormir até a noite.,Dormir até a noite.
+A14_2,Atacar Griff!,Atacar Griff!
+,,
+P12_0,[Griff] Mestre Plue. O que viemos fazer aqui?,[Griff] Mestre Plue. O que viemos fazer aqui?
+P12_1,[Plue] ZzzzzZZzZZzzzzzZZZzz,[Plue] ZzzzzZZzZZzzzzzZZZzz
 ,,
-P7_0,[Griff] Fantástico esse castelo! O rei deve estar aqui.$,[Griff] Fantástico esse castelo! O rei deve estar aqui.
+P7_0,[Griff] Fantástico esse castelo! O rei deve estar aqui.,[Griff] Fantástico esse castelo! O rei deve estar aqui.
 ,,
-P8_0,{c}(Um guarda aparece!)$,{c}(Um guarda aparece!)
-P8_1,[Guarda] Hã? Quem são vocês?$,[Guarda] Hã? Quem são vocês?
-A8_0,Falar com ele.$,Falar com ele.
-A8_1,Derrotar ele.$,Derrotar ele.
+P8_0,{c}(Um guarda aparece),{c}(Um guarda aparece)
+P8_1,[Guarda] Hã? Quem são vocês?,[Guarda] Hã? Quem são vocês?
+A8_0,Falar com ele.,Falar com ele.
+A8_1,Derrotar ele.,Derrotar ele.
 ,,
-P15_0,[Guarda] Mm? Vieram ajudar a recuperar a Joia Doce?$,[Guarda] Mm? Vieram ajudar a recuperar a Joia Doce?
-P15_1,[Guarda] Quero ver se são herois de verdade!$,         Quero ver se são herois de verdade!
-P15_2,{c}(A luta começa!)$,{c}(A luta começa!)
-A15_0,Lutar!$,Lutar!
-A15_0,Fugir!$,Fugir!
+P15_0,[Guarda] Mm? Vieram ajudar a recuperar a Joia Doce?,[Guarda] Mm? Vieram ajudar a recuperar a Joia Doce?
+P15_1,         Quero ver se são herois de verdade!,         Quero ver se são herois de verdade!
+P15_2,{c}(A luta começa!),{c}(A luta começa!)
+A15_0,Lutar!,Lutar!
+A15_0,Fugir!,Fugir!
 ,,
-P4_0,,{c}(Plue lança uma pedrinha)
-P4_1,,[Griff] Mestre Plue!! Essa pedrinha não vai derrotá-lo!
+P4_0,{c}(Plue lança uma pedrinha),{c}(Plue lança uma pedrinha)
+P4_1,[Griff] Mestre Plue!! Essa pedrinha não vai derrotá-lo!,[Griff] Mestre Plue!! Essa pedrinha não vai derrotá-lo!
 ,,
-P5_0,,[Guarda] Aii! Eu... me rendo!
-P5_1,,"[Griff] Tá de brincadeira, né!!!"
+P5_0,[Guarda] Aii! Eu... me rendo!,[Guarda] Aii! Eu... me rendo!
+P5_1,"[Griff] Tá de brincadeira, né!!!","[Griff] Tá de brincadeira, né!!!"
 ,,
-P30_0,,[Plue e Griff] AaaaaAAAiieeEE!!!
-P30_1,,[Guarda] Ei! Esperem!
-P30_2,,{c}(Guarda tropeça em uma pedra)
+P30_0,[Plue e Griff] AaaaaAAAiieeEE!!!,[Plue e Griff] AaaaaAAAiieeEE!!!
+P30_1,[Guarda] Ei! Esperem!,[Guarda] Ei! Esperem!
+P30_2,{c}(Guarda tropeça em uma pedra),{c}(Guarda tropeça em uma pedra)
 ,,
-P6_0,,[Guarda] Vocês são fortes... O Rei os aguarda no castelo... 
-P6_1,,[Griff] Como foi que ele virou guarda? 
+P6_0,[Guarda] Vocês são fortes... O Rei os aguarda no castelo... ,[Guarda] Vocês são fortes... O Rei os aguarda no castelo... 
+P6_1,[Griff] Como foi que ele virou guarda? ,[Griff] Como foi que ele virou guarda? 
 ,,
-P19_0,,{c}(Castelo de Carmella) 
-P19_1,,"[Rei Carmella] Plue, Griff, sejam bem-vindos!! "
-P19_2,,"               Acho que já  estão a par da situação, mas podem me perguntar o que quiserem."
+P19_0,{c}(Castelo de Carmella) ,{c}(Castelo de Carmella) 
+P19_1,"[Rei Carmella] Plue, Griff, sejam bem-vindos!! ","[Rei Carmella] Plue, Griff, sejam bem-vindos!! "
+P19_2,"               Acho que já  estão a par da situação, mas podem me perguntar o que quiserem.","               Acho que já  estão a par da situação, mas podem me perguntar o que quiserem."
 ,,
-P26_0,,[Rei Carmella] O que vocês querem saber? 
-A26_0,,O que é a Joia Doce? 
-A26_1,,Quem é o Mago Malégno? 
-A26_2,,Quais são as suas medidas? 
-A26_3,,Pode nos dar uma dica? 
-A26_4,,Já temos o que precisamos! 
+P26_0,[Rei Carmella] O que vocês querem saber? ,[Rei Carmella] O que vocês querem saber? 
+A26_0,O que é a Joia Doce? ,O que é a Joia Doce? 
+A26_1,Quem é o Mago Malégno? ,Quem é o Mago Malégno? 
+A26_2,Quais são as suas medidas? ,Quais são as suas medidas? 
+A26_3,Pode nos dar uma dica? ,Pode nos dar uma dica? 
+A26_4,Já temos o que precisamos! ,Já temos o que precisamos! 
 ,,
-P29_0,,[Rei Carmella] Ele usa magia de pudins e tem uma cara de mal.
-A29_0,,Onde ele está?
-A29_1,,Perguntar outra coisa.
+P29_0,[Rei Carmella] Ele usa magia de pudins e tem uma cara de mal.,[Rei Carmella] Ele usa magia de pudins e tem uma cara de mal.
+A29_0,Onde ele está?,Onde ele está?
+A29_1,Perguntar outra coisa.,Perguntar outra coisa.
 ,,
-P44_0,,"[Rei Carmella] Indo em direção ao norte, vocês chegarão ao Vale Secreto... É lá que ele se esconde."
-A44_0,,Por que você mesmo não vai? 
-A44_1,,Perguntar outra coisa. 
+P44_0,"[Rei Carmella] Indo em direção ao norte, vocês chegarão ao Vale Secreto... É lá que ele se esconde.","[Rei Carmella] Indo em direção ao norte, vocês chegarão ao Vale Secreto... É lá que ele se esconde."
+A44_0,Por que você mesmo não vai? ,Por que você mesmo não vai? 
+A44_1,Perguntar outra coisa. ,Perguntar outra coisa. 
 ,,
-P54_0,,[Rei Carmella] É trabalho demais!!!
-P54_1,,"[Griff] Ah, então tá, né…"
+P54_0,[Rei Carmella] É trabalho demais!!!,[Rei Carmella] É trabalho demais!!!
+P54_1,"[Griff] Ah, então tá, né…","[Griff] Ah, então tá, né…"
 ,,
-P3_0,,"[Rei Carmella] Foi dito isso no Prólogo, não leu não? "
-P3_1,,[Griff] Ééér...
+P3_0,"[Rei Carmella] Foi dito isso no Prólogo, não leu não? ","[Rei Carmella] Foi dito isso no Prólogo, não leu não? "
+P3_1,[Griff] Ééér...,[Griff] Ééér...
 ,,
-P37_0,,"[Griff] Por que está perguntando isso, Mestre Plue?"
+P37_0,"[Griff] Por que está perguntando isso, Mestre Plue?","[Griff] Por que está perguntando isso, Mestre Plue?"
 ,,
-P56_0,,"[Rei Carmella] O mago é muito trapaceiro e as perguntas dele têm uma ""resposta dentro da resposta"". Lembrem-se disso!"
+P56_0,"[Rei Carmella] O mago é muito trapaceiro e as perguntas dele têm uma ""resposta dentro da resposta"". Lembrem-se disso!","[Rei Carmella] O mago é muito trapaceiro e as perguntas dele têm uma ""resposta dentro da resposta"". Lembrem-se disso!"
 ,,
-P16_0,,[Rei Carmella] Tomem cuidado!! Ofereço um monte de balas como recompensa!!
-P16_1,,[Griff] Certo!! Vamos lá!! 
-P16_2,,{c}(A aventura vai começar)
+P16_0,[Rei Carmella] Tomem cuidado!! Ofereço um monte de balas como recompensa!!,[Rei Carmella] Tomem cuidado!! Ofereço um monte de balas como recompensa!!
+P16_1,[Griff] Certo!! Vamos lá!! ,[Griff] Certo!! Vamos lá!! 
+P16_2,{c}(A aventura vai começar),{c}(A aventura vai começar)
 ,,
-P17_0,,[Griff] Saímos de Carmella... Para onde vamos agora?
-A17_0,,Castelo do Inferno
-A17_1,,Vale Secreto
+P17_0,[Griff] Saímos de Carmella... Para onde vamos agora?,[Griff] Saímos de Carmella... Para onde vamos agora?
+A17_0,Castelo do Inferno,Castelo do Inferno
+A17_1,Vale Secreto,Vale Secreto
 ,,
-P31_0,,[Monstros] GrooOOoooaaaAAaarrRRrrr!!!
-P31_1,,[Griff] N-Não parece ser um lugar muito agradável…
-P31_2,,{c}(Plue e Griff erraram o caminho)
+P31_0,[Monstros] GrooOOoooaaaAAaarrRRrrr!!!,[Monstros] GrooOOoooaaaAAaarrRRrrr!!!
+P31_1,[Griff] N-Não parece ser um lugar muito agradável…,[Griff] N-Não parece ser um lugar muito agradável…
+P31_2,{c}(Plue e Griff erraram o caminho),{c}(Plue e Griff erraram o caminho)
 ,,
-P22_0,,[Griff] Qual era mesmo a direção?
-A22_0,,Norte.
-A22_1,,Sul.
+P22_0,[Griff] Qual era mesmo a direção?,[Griff] Qual era mesmo a direção?
+A22_0,Norte.,Norte.
+A22_1,Sul.,Sul.
 ,,
-P36_0,,{c}(Plue e Griff foram para o Norte)
-P36_1,,"[Griff] O-Olha, uma floresta."
+P36_0,{c}(Plue e Griff foram para o Norte),{c}(Plue e Griff foram para o Norte)
+P36_1,"[Griff] O-Olha, uma floresta.","[Griff] O-Olha, uma floresta."
 ,,
-P42_0,,{c}(Floresta do Macho) 
-P42_1,,[Griff] Essas árvores musculosas... são sinistras! 
-A42_0,,Vamos para o caminho da direita. 
-A42_1,,Vamos para o caminho da esquerda. 
+P42_0,{c}(Floresta do Macho) ,{c}(Floresta do Macho) 
+P42_1,[Griff] Essas árvores musculosas... são sinistras! ,[Griff] Essas árvores musculosas... são sinistras! 
+A42_0,Vamos para o caminho da direita. ,Vamos para o caminho da direita. 
+A42_1,Vamos para o caminho da esquerda. ,Vamos para o caminho da esquerda. 
 ,,
-P47_0,,[Griff] Tem uma flor estranha aqui.
-P47_1,,{c}(Uma flor musculosa aparece)
-A47_0,,Dançar.
-A47_1,,Arrancar. 
-A47_2,,Voltar e ir pela esquerda.
+P47_0,[Griff] Tem uma flor estranha aqui.,[Griff] Tem uma flor estranha aqui.
+P47_1,{c}(Uma flor musculosa aparece),{c}(Uma flor musculosa aparece)
+A47_0,Dançar.,Dançar.
+A47_1,Arrancar. ,Arrancar. 
+A47_2,Voltar e ir pela esquerda.,Voltar e ir pela esquerda.
 ,,
-P38_0,,[Flor Monstro] Ei! O que estão fazendo!! 
-P38_1,,{c}(A briga começa) 
-A38_0,,Soco do Plue.
-A38_1,,Ataque do Griff.
-A38_2,,Enterrar.
+P38_0,[Flor Monstro] Ei! O que estão fazendo!! ,[Flor Monstro] Ei! O que estão fazendo!! 
+P38_1,{c}(A briga começa) ,{c}(A briga começa) 
+A38_0,Soco do Plue.,Soco do Plue.
+A38_1,Ataque do Griff.,Ataque do Griff.
+A38_2,Enterrar.,Enterrar.
 ,,
-P46_0,,[Atenção] Esse golpe pode por a vida de Griff em risco.
-P46_1,,[Griff] Tem certeza que quer usar?
-A46_0,,"Sim, usar."
-A46_1,,"Não, enterrar."
-A46_2,,"Não, fugir."
+P46_0,[Atenção] Esse golpe pode por a vida de Griff em risco.,[Atenção] Esse golpe pode por a vida de Griff em risco.
+P46_1,[Griff] Tem certeza que quer usar?,[Griff] Tem certeza que quer usar?
+A46_0,"Sim, usar.","Sim, usar."
+A46_1,"Não, enterrar.","Não, enterrar."
+A46_2,"Não, fugir.","Não, fugir."
 ,,
-P60_0,,{c}(Griff vira um Super Bastão)
+P60_0,{c}(Griff vira um Super Bastão),{c}(Griff vira um Super Bastão)
 ,,
-P61_0,,"{c}(Vocês derrotaram a planta esquisita, mas o Griff também se foi)"
+P61_0,"{c}(Vocês derrotaram a planta esquisita, mas o Griff também se foi)","{c}(Vocês derrotaram a planta esquisita, mas o Griff também se foi)"
 ,,
-P13_0,,[Griff] Ufa! Conseguimos escapar!
-P13_1,,        Vamos para o caminho da esquerda.
+P13_0,[Griff] Ufa! Conseguimos escapar!,[Griff] Ufa! Conseguimos escapar!
+P13_1,        Vamos para o caminho da esquerda.,        Vamos para o caminho da esquerda.
 ,,
-P28_0,,{c}(Penhasco dos Cogumelos)
-P28_1,,[Griff] Mestre Plue!! Não dá pra passar para o outro lado!
+P28_0,{c}(Penhasco dos Cogumelos),{c}(Penhasco dos Cogumelos)
+P28_1,[Griff] Mestre Plue!! Não dá pra passar para o outro lado!,[Griff] Mestre Plue!! Não dá pra passar para o outro lado!
 ,,
-P23_0,,[Griff] Aqui tem dois cogumelos enormes e esquisitos!
-P23_1,,        E também tem duas placas com algo escrito. 
-A23_0,,Pular sobre os cogumelos. 
-A23_1,,"Comer o cogumelo da placa ""Arrega"". "
-A23_2,,Observar melhor. 
+P23_0,[Griff] Aqui tem dois cogumelos enormes e esquisitos!,[Griff] Aqui tem dois cogumelos enormes e esquisitos!
+P23_1,        E também tem duas placas com algo escrito. ,        E também tem duas placas com algo escrito. 
+A23_0,Pular sobre os cogumelos. ,Pular sobre os cogumelos. 
+A23_1,"Comer o cogumelo da placa ""Arrega"". ","Comer o cogumelo da placa ""Arrega"". "
+A23_2,Observar melhor. ,Observar melhor. 
 ,,
-P18_0,,"{c}(Devia ter ""arregado""! Era veneno. Você está morto)"
+P18_0,"{c}(Devia ter ""arregado""! Era veneno. Você está morto)","{c}(Devia ter ""arregado""! Era veneno. Você está morto)"
 ,,
-P40_0,,[Griff] Veja! A parte de cima é idêntica. Será que tem algum significado?
-A40_0,,Pular sobre os cogumelos. 
-A40_1,,"Comer o cogumelo da placa ""Arrega"". "
+P40_0,[Griff] Veja! A parte de cima é idêntica. Será que tem algum significado?,[Griff] Veja! A parte de cima é idêntica. Será que tem algum significado?
+A40_0,Pular sobre os cogumelos. ,Pular sobre os cogumelos. 
+A40_1,"Comer o cogumelo da placa ""Arrega"". ","Comer o cogumelo da placa ""Arrega"". "
 ,,
-P27_0,,[Griff] Vamos pular em qual dos cogumelos?
-A27_0,,"No cogumelo da placa ""Não Arrega""."
-A27_1,,"No cogumelo da placa ""Arrega""."
+P27_0,[Griff] Vamos pular em qual dos cogumelos?,[Griff] Vamos pular em qual dos cogumelos?
+A27_0,"No cogumelo da placa ""Não Arrega"".","No cogumelo da placa ""Não Arrega""."
+A27_1,"No cogumelo da placa ""Arrega"".","No cogumelo da placa ""Arrega""."
 ,,
-P52_0,,"{c}(A Placa estava um pouco falhada, deveria estar escrito ""Não Carrega"")"
-P52_1,,{c}(Plue e Griff caíram do penhasco) 
+P52_0,"{c}(A Placa estava um pouco falhada, deveria estar escrito ""Não Carrega"")","{c}(A Placa estava um pouco falhada, deveria estar escrito ""Não Carrega"")"
+P52_1,{c}(Plue e Griff caíram do penhasco) ,{c}(Plue e Griff caíram do penhasco) 
 ,,
-P39_0,,"{c}(A Placa estava um pouco falhada, deveria estar escrito ""Carrega"") "
-P39_1,,[Griff] Conseguimos!! Atravessamos o penhasco!! 
+P39_0,"{c}(A Placa estava um pouco falhada, deveria estar escrito ""Carrega"") ","{c}(A Placa estava um pouco falhada, deveria estar escrito ""Carrega"") "
+P39_1,[Griff] Conseguimos!! Atravessamos o penhasco!! ,[Griff] Conseguimos!! Atravessamos o penhasco!! 
 ,,
-P43_0,,{c}(Plue faz uma dancinha) 
-P43_1,,[Flor Monstro] Oh! Você dança bem. Gostei.
+P43_0,{c}(Plue faz uma dancinha) ,{c}(Plue faz uma dancinha) 
+P43_1,[Flor Monstro] Oh! Você dança bem. Gostei.,[Flor Monstro] Oh! Você dança bem. Gostei.
 ,,
-P58_0,,[Flor Monstro] O meu nome é Flor Monstro. Não tenho nenhum motivo específico para estar aqui. Podem seguir adiante.
-P58_1,,[Griff] É o que faremos!
+P58_0,[Flor Monstro] O meu nome é Flor Monstro. Não tenho nenhum motivo específico para estar aqui. Podem seguir adiante.,[Flor Monstro] O meu nome é Flor Monstro. Não tenho nenhum motivo específico para estar aqui. Podem seguir adiante.
+P58_1,[Griff] É o que faremos!,[Griff] É o que faremos!
 ,,
-P50_0,,{c}(Plue dá um soquinho!)
-P50_1,,[Flor Monstro] Isso não dói!!
+P50_0,{c}(Plue dá um soquinho!),{c}(Plue dá um soquinho!)
+P50_1,[Flor Monstro] Isso não dói!!,[Flor Monstro] Isso não dói!!
 ,,
-P21_0,,[Flor Monstro] Ei! Está me enterrando de ponta cabeça! 
-P21_1,,[Griff] Rápido! Vamos para o caminho da esquerda.
+P21_0,[Flor Monstro] Ei! Está me enterrando de ponta cabeça! ,[Flor Monstro] Ei! Está me enterrando de ponta cabeça! 
+P21_1,[Griff] Rápido! Vamos para o caminho da esquerda.,[Griff] Rápido! Vamos para o caminho da esquerda.
 ,,
-P25_0,,{c}(Flor Monstro deu um socão) 
-P25_1,,[Griff] Mestre Plue!! Nããããããããooo!!
-P25_2,,{c}(Plue foi esmagado)
+P25_0,{c}(Flor Monstro deu um socão) ,{c}(Flor Monstro deu um socão) 
+P25_1,[Griff] Mestre Plue!! Nããããããããooo!!,[Griff] Mestre Plue!! Nããããããããooo!!
+P25_2,{c}(Plue foi esmagado),{c}(Plue foi esmagado)
 ,,
-P73_0,,{c}(Vale Secreto)
-P73_1,,[Griff] Este é o Vale Secreto. O Mago que roubou a Joia Doce deve estar em algum lugar por aqui.
+P73_0,{c}(Vale Secreto),{c}(Vale Secreto)
+P73_1,[Griff] Este é o Vale Secreto. O Mago que roubou a Joia Doce deve estar em algum lugar por aqui.,[Griff] Este é o Vale Secreto. O Mago que roubou a Joia Doce deve estar em algum lugar por aqui.
 ,,
-P74_0,,{c}(Visite os locais que forem suspeitos)
-A74_0,,Ir para a Caverna.
-A74_1,,Ir para a Casa da Caveira.
-A74_2,,Ir para a Tenda.
+P74_0,{c}(Visite os locais que forem suspeitos),{c}(Visite os locais que forem suspeitos)
+A74_0,Ir para a Caverna.,Ir para a Caverna.
+A74_1,Ir para a Casa da Caveira.,Ir para a Casa da Caveira.
+A74_2,Ir para a Tenda.,Ir para a Tenda.
 ,,
-P41_0,,{c}(Casa da Caveira)
-P41_1,,[Griff] Vamos investigar o local!
-A41_0,,Espada.
-A41_1,,Livro.
-A41_2,,Anel.
-A41_3,,Sair da casa.
+P41_0,{c}(Casa da Caveira),{c}(Casa da Caveira)
+P41_1,[Griff] Vamos investigar o local!,[Griff] Vamos investigar o local!
+A41_0,Espada.,Espada.
+A41_1,Livro.,Livro.
+A41_2,Anel.,Anel.
+A41_3,Sair da casa.,Sair da casa.
 ,,
-P68_0,,[Griff] O livro está trancado com um cadeado.
-A68_0,,Forçar.
-A68_1,,Procurar outra coisa.
+P68_0,[Griff] O livro está trancado com um cadeado.,[Griff] O livro está trancado com um cadeado.
+A68_0,Forçar.,Forçar.
+A68_1,Procurar outra coisa.,Procurar outra coisa.
 ,,
-P72_0,,[Griff] Não abre de jeito nenhum!!
+P72_0,[Griff] Não abre de jeito nenhum!!,[Griff] Não abre de jeito nenhum!!
 ,,
-P32_0,,{c}(Você encontrou a Exgatolibur)
-P32_1,,{c}(Plue não é forte o sulficiente para usá-la)
-P32_2,,{c}(Você também não possui inventário para guardá-la)
+P32_0,{c}(Você encontrou a Exgatolibur),{c}(Você encontrou a Exgatolibur)
+P32_1,{c}(Plue não é forte o sulficiente para usá-la),{c}(Plue não é forte o sulficiente para usá-la)
+P32_2,{c}(Você também não possui inventário para guardá-la),{c}(Você também não possui inventário para guardá-la)
 ,,
-P82_0,,"[Griff] E-Este é o artefato das trevas ""Dragon Man""!"
-A82_0,,Olhar direito.
-A82_1,,Usar.
-A82_2,,Verificar outra coisa.
+P82_0,"[Griff] E-Este é o artefato das trevas ""Dragon Man""!","[Griff] E-Este é o artefato das trevas ""Dragon Man""!"
+A82_0,Olhar direito.,Olhar direito.
+A82_1,Usar.,Usar.
+A82_2,Verificar outra coisa.,Verificar outra coisa.
 ,,
-P33_0,,{c}(Olhando direito)
-A33_0,,Usar.
-A33_1,,Verificar outra coisa.
+P33_0,{c}(Olhando direito),{c}(Olhando direito)
+A33_0,Usar.,Usar.
+A33_1,Verificar outra coisa.,Verificar outra coisa.
 ,,
-P96_0,,{c}(Um dragão aparece)
-P96_1,,[Dragão] Gruuooooaaarrrrr!!
-P96_2,,[Griff] Aagh!! Um dragão!! Vamos fugir para a caverna!
+P96_0,{c}(Um dragão aparece),{c}(Um dragão aparece)
+P96_1,[Dragão] Gruuooooaaarrrrr!!,[Dragão] Gruuooooaaarrrrr!!
+P96_2,[Griff] Aagh!! Um dragão!! Vamos fugir para a caverna!,[Griff] Aagh!! Um dragão!! Vamos fugir para a caverna!
 ,,
-P64_0,,{c}(Tenda)
-P64_1,,[Griff] Ótimo! Vamos descançar um pouco.
-A64_0,,Voltar para a aventura.
-A64_1,,Quero voltar no tempo.
-A64_2,,Cansei de jogar esse troço.
+P64_0,{c}(Tenda),{c}(Tenda)
+P64_1,[Griff] Ótimo! Vamos descançar um pouco.,[Griff] Ótimo! Vamos descançar um pouco.
+A64_0,Voltar para a aventura.,Voltar para a aventura.
+A64_1,Quero voltar no tempo.,Quero voltar no tempo.
+A64_2,Cansei de jogar esse troço.,Cansei de jogar esse troço.
 ,,
-P81_0,,[Griff] Obrigado por torcerem por nós!
-P81_1,,{c}(As aventuras de Plue e Griff vão continuar na próxima vez)
+P81_0,[Griff] Obrigado por torcerem por nós!,[Griff] Obrigado por torcerem por nós!
+P81_1,{c}(As aventuras de Plue e Griff vão continuar na próxima vez),{c}(As aventuras de Plue e Griff vão continuar na próxima vez)
 ,,
-P91_0,,"{c}(Sieg Hart, O Defensor do Tempo aparece)"
-P91_1,,"[Sieg Hart] Olá, o meu nome é Sieg Hart. Eu controlo o fluxo do tempo."
-P91_2,,[Griff] D-De onde você surgiu?!
+P91_0,"{c}(Sieg Hart, O Defensor do Tempo aparece)","{c}(Sieg Hart, O Defensor do Tempo aparece)"
+P91_1,"[Sieg Hart] Olá, o meu nome é Sieg Hart. Eu controlo o fluxo do tempo.","[Sieg Hart] Olá, o meu nome é Sieg Hart. Eu controlo o fluxo do tempo."
+P91_2,[Griff] D-De onde você surgiu?!,[Griff] D-De onde você surgiu?!
 ,,
-P92_0,,[Sieg Hart] Eu os levarei para o tempo que quiserem.
-A92_0,,Voltar para o Castelo Carmella.
-A92_1,,Voltar para a Floresta do Macho.
-A92_2,,Voltar para o Penhasco do Cogumelo.
-A92_3,,Ir para o futuro.
-A92_4,,Deixa pra lá.
+P92_0,[Sieg Hart] Eu os levarei para o tempo que quiserem.,[Sieg Hart] Eu os levarei para o tempo que quiserem.
+A92_0,Voltar para o Castelo Carmella.,Voltar para o Castelo Carmella.
+A92_1,Voltar para a Floresta do Macho.,Voltar para a Floresta do Macho.
+A92_2,Voltar para o Penhasco do Cogumelo.,Voltar para o Penhasco do Cogumelo.
+A92_3,Ir para o futuro.,Ir para o futuro.
+A92_4,Deixa pra lá.,Deixa pra lá.
 ,,
-P24_0,,{c}(10 anos depois)
-P24_1,,[Griff] Ei! Não dá mais pra recuperar a Joia Doce!!
-P24_2,,{c}(Não dá mais pra voltar)
+P24_0,{c}(10 anos depois),{c}(10 anos depois)
+P24_1,[Griff] Ei! Não dá mais pra recuperar a Joia Doce!!,[Griff] Ei! Não dá mais pra recuperar a Joia Doce!!
+P24_2,{c}(Não dá mais pra voltar),{c}(Não dá mais pra voltar)
 ,,
-P35_0,,{c}(Caverna)
-P35_1,,[Griff] Não ouço nada. Mas sinto que o Mago está lá no fundo.
-A35_0,,Avançar.
-A35_1,,Ainda tem algo inacabado.
+P35_0,{c}(Caverna),{c}(Caverna)
+P35_1,[Griff] Não ouço nada. Mas sinto que o Mago está lá no fundo.,[Griff] Não ouço nada. Mas sinto que o Mago está lá no fundo.
+A35_0,Avançar.,Avançar.
+A35_1,Ainda tem algo inacabado.,Ainda tem algo inacabado.
 ,,
-P66_0,,[Griff] Ah! A caverna é um labirinto!!
-,,
-P77_0,,{c}(Isso foi trapaça. Não tem como chegar nessa parte do labirinto)
-P77_1,,"[Griff] Estou decepcionado com você, Mestre Plue."
+P66_0,[Griff] Ah! A caverna é um labirinto!!,[Griff] Ah! A caverna é um labirinto!!
+,,
+P77_0,{c}(Isso foi trapaça. Não tem como chegar nessa parte do labirinto),{c}(Isso foi trapaça. Não tem como chegar nessa parte do labirinto)
+P77_1,"[Griff] Estou decepcionado com você, Mestre Plue.","[Griff] Estou decepcionado com você, Mestre Plue."
 ,,
-P48_0,,"[Griff] Agh, credo!! Tem uma caveira aqui!!"
-P48_1,,        Este caminho parece perigoso!
-A48_0,,Voltar.
-A48_1,,Seguir por este caminho.
+P48_0,"[Griff] Agh, credo!! Tem uma caveira aqui!!","[Griff] Agh, credo!! Tem uma caveira aqui!!"
+P48_1,        Este caminho parece perigoso!,        Este caminho parece perigoso!
+A48_0,Voltar.,Voltar.
+A48_1,Seguir por este caminho.,Seguir por este caminho.
 ,,
-P95_0,,"[Griff] Ufa... Finalmente, chegamos."
+P95_0,"[Griff] Ufa... Finalmente, chegamos.","[Griff] Ufa... Finalmente, chegamos."
 ,,
-P100_0,,{c}(O Mago Malégno aparece)
-P100_1,,[Mago Malégno] Vocês vieram recuperar a Joia Doce?
+P100_0,{c}(O Mago Malégno aparece),{c}(O Mago Malégno aparece)
+P100_1,[Mago Malégno] Vocês vieram recuperar a Joia Doce?,[Mago Malégno] Vocês vieram recuperar a Joia Doce?
 ,,
-P97_0,,[Mago Malégno] Não vou devolver!
-P97_1,,{c}(A luta começa)
-P97_2,,{c}(Derrote o Mago Malégno)
-A97_0,,Atacar com o Chute do Plue.
-A97_1,,Atacar com a Broca do Plue.
-A97_2,,Aguarde o ataque do inimigo.
-,,
-P70_0,,{c}(Ele se esquivou)
-P70_1,,[Mago Malégno] Há! Tolo.
+P97_0,[Mago Malégno] Não vou devolver!,[Mago Malégno] Não vou devolver!
+P97_1,{c}(A luta começa),{c}(A luta começa)
+P97_2,{c}(Derrote o Mago Malégno),{c}(Derrote o Mago Malégno)
+A97_0,Atacar com o Chute do Plue.,Atacar com o Chute do Plue.
+A97_1,Atacar com a Broca do Plue.,Atacar com a Broca do Plue.
+A97_2,Aguarde o ataque do inimigo.,Aguarde o ataque do inimigo.
+,,
+P70_0,{c}(Ele se esquivou),{c}(Ele se esquivou)
+P70_1,[Mago Malégno] Há! Tolo.,[Mago Malégno] Há! Tolo.
 ,,
-P86_0,,{c}(Dddzzzzzzzzzz)
-P86_1,,[Griff] Mestre Plue!! Por que você está perfurando o chão?
+P86_0,{c}(Dddzzzzzzzzzz),{c}(Dddzzzzzzzzzz)
+P86_1,[Griff] Mestre Plue!! Por que você está perfurando o chão?,[Griff] Mestre Plue!! Por que você está perfurando o chão?
 ,,
-P88_0,,"{c}(Turno do inimigo, se defenda)"
-P88_1,,{c}(Um pudim está caindo do céu)
-P88_2,,[Griff] M-Mas que pudim gigante é esse!!
-A88_0,,Comer.
-A88_1,,Ignorar.
-,,
-P57_0,,{c}(Plash)
-P57_1,,"[Griff] Isso é pudim, não machuca!"
-P57_2,,[Mago Malégno] O quê?!
+P88_0,"{c}(Turno do inimigo, se defenda)","{c}(Turno do inimigo, se defenda)"
+P88_1,{c}(Um pudim está caindo do céu),{c}(Um pudim está caindo do céu)
+P88_2,[Griff] M-Mas que pudim gigante é esse!!,[Griff] M-Mas que pudim gigante é esse!!
+A88_0,Comer.,Comer.
+A88_1,Ignorar.,Ignorar.
+,,
+P57_0,{c}(Plash),{c}(Plash)
+P57_1,"[Griff] Isso é pudim, não machuca!","[Griff] Isso é pudim, não machuca!"
+P57_2,[Mago Malégno] O quê?!,[Mago Malégno] O quê?!
 ,,
-P108_0,,[Plue] Nhac!!
-P108_1,,[Mago Malégno] O quê?!
+P108_0,[Plue] Nhac!!,[Plue] Nhac!!
+P108_1,[Mago Malégno] O quê?!,[Mago Malégno] O quê?!
 ,,
-P78_0,,{c}(Agora é a vez do Plue)
-A78_0,,Explosão do Plue.
-A78_1,,Ataque Final do Plue.
-A78_2,,Fazer uma pausa.
-A78_3,,Lançar Plue.
+P78_0,{c}(Agora é a vez do Plue),{c}(Agora é a vez do Plue)
+A78_0,Explosão do Plue.,Explosão do Plue.
+A78_1,Ataque Final do Plue.,Ataque Final do Plue.
+A78_2,Fazer uma pausa.,Fazer uma pausa.
+A78_3,Lançar Plue.,Lançar Plue.
 ,,
-P103_0,,[Griff] Ei! Você não pode dormir agora!
-P103_1,,[Plue] ZzzzzZZzZZzzzzzZZZzz...
+P103_0,[Griff] Ei! Você não pode dormir agora!,[Griff] Ei! Você não pode dormir agora!
+P103_1,[Plue] ZzzzzZZzZZzzzzzZZZzz...,[Plue] ZzzzzZZzZZzzzzzZZZzz...
 ,,
-P104_0,,{c}(Plue e Griff foram transformados em pudim enquanto dormiam)
-P104_1,,[Griff Pudim] Não nos coma!
+P104_0,{c}(Plue e Griff foram transformados em pudim enquanto dormiam),{c}(Plue e Griff foram transformados em pudim enquanto dormiam)
+P104_1,[Griff Pudim] Não nos coma!,[Griff Pudim] Não nos coma!
 ,,
-P67_0,,"[Griff] Você consegue fazer isso, Mestre Plue?"
-P67_1,,[Plue] Puuun... (Não consigo...)
-P67_2,,"[Griff] Se não consegue nem tente, né!"
-A67_0,,Ataque Final do Plue.
-A67_1,,Fazer uma pausa.
-A67_2,,Lançar Plue.
+P67_0,"[Griff] Você consegue fazer isso, Mestre Plue?","[Griff] Você consegue fazer isso, Mestre Plue?"
+P67_1,[Plue] Puuun... (Não consigo...),[Plue] Puuun... (Não consigo...)
+P67_2,"[Griff] Se não consegue nem tente, né!","[Griff] Se não consegue nem tente, né!"
+A67_0,Ataque Final do Plue.,Ataque Final do Plue.
+A67_1,Fazer uma pausa.,Fazer uma pausa.
+A67_2,Lançar Plue.,Lançar Plue.
 ,,
-P63_0,,"[Griff] Lá vai, Mestre Plue!"
-P63_1,,[Mago Malégno] Hã?
+P63_0,"[Griff] Lá vai, Mestre Plue!","[Griff] Lá vai, Mestre Plue!"
+P63_1,[Mago Malégno] Hã?,[Mago Malégno] Hã?
 ,,
-P106_0,,{c}(Zaaaah)
-P106_1,,[Mago Malégno] AaaAAaghh!!!
+P106_0,{c}(Zaaaah),{c}(Zaaaah)
+P106_1,[Mago Malégno] AaaAAaghh!!!,[Mago Malégno] AaaAAaghh!!!
 ,,
-P107_0,,[Griff] Conseguimos!!
-P107_1,,[Plue] Puuun!!
+P107_0,[Griff] Conseguimos!!,[Griff] Conseguimos!!
+P107_1,[Plue] Puuun!!,[Plue] Puuun!!
 ,,
-P119_0,,[Mago Malégno] Mmm... Nada mal...
-P119_1,,               Mas não vou simplesmente entregar a Joia Doce.
-P119_2,,               Respondam primeiro as minhas charadas.
-A119_0,,Resolver as charadas.
-A119_1,,Resolver na briga de qualquer jeito.
+P119_0,[Mago Malégno] Mmm... Nada mal...,[Mago Malégno] Mmm... Nada mal...
+P119_1,               Mas não vou simplesmente entregar a Joia Doce.,               Mas não vou simplesmente entregar a Joia Doce.
+P119_2,               Respondam primeiro as minhas charadas.,               Respondam primeiro as minhas charadas.
+A119_0,Resolver as charadas.,Resolver as charadas.
+A119_1,Resolver na briga de qualquer jeito.,Resolver na briga de qualquer jeito.
 ,,
-P84_0,,[Griff] Ataque Final... Não vai me dizer que...
-P84_1,,[Atenção] É um golpe que põe a vida de Plue em risco.
-A84_0,,Usar ataque.
-A84_1,,Deixar pra lá.
+P84_0,[Griff] Ataque Final... Não vai me dizer que...,[Griff] Ataque Final... Não vai me dizer que...
+P84_1,[Atenção] É um golpe que põe a vida de Plue em risco.,[Atenção] É um golpe que põe a vida de Plue em risco.
+A84_0,Usar ataque.,Usar ataque.
+A84_1,Deixar pra lá.,Deixar pra lá.
 ,,
-P113_0,,{c}(Kaboooooom)
-P113_1,,[Griff] Mestre Plue!!!
+P113_0,{c}(Kaboooooom),{c}(Kaboooooom)
+P113_1,[Griff] Mestre Plue!!!,[Griff] Mestre Plue!!!
 ,,
-P114_0,,[Griff] Hein?!
-P114_1,,"{c}(Na verdade, Plue só jogou uma bomba que tinha trazido consigo)"
+P114_0,[Griff] Hein?!,[Griff] Hein?!
+P114_1,"{c}(Na verdade, Plue só jogou uma bomba que tinha trazido consigo)","{c}(Na verdade, Plue só jogou uma bomba que tinha trazido consigo)"
 ,,
-P102_0,,[Griff] Toma!!!
-P102_1,,[Plue] P-puuun!!!
-P102_2,,[Mago Malégno] E-Esperem... Me deixem fazer as charadas...
-A102_0,,"Tudo bem, não temos escolha."
-A102_1,,Continuar batendo.
+P102_0,[Griff] Toma!!!,[Griff] Toma!!!
+P102_1,[Plue] P-puuun!!!,[Plue] P-puuun!!!
+P102_2,[Mago Malégno] E-Esperem... Me deixem fazer as charadas...,[Mago Malégno] E-Esperem... Me deixem fazer as charadas...
+A102_0,"Tudo bem, não temos escolha.","Tudo bem, não temos escolha."
+A102_1,Continuar batendo.,Continuar batendo.
 ,,
-P85_0,,[Mago Malégno] Me deixem fazer as charadas!!!
-P85_1,,{c}(Pow)
-P85_2,,{c}(Paf)
-P85_3,,{c}(Bam)
-A85_0,,"Tudo bem, não temos escolha."
-A85_1,,Bater mais!!
+P85_0,[Mago Malégno] Me deixem fazer as charadas!!!,[Mago Malégno] Me deixem fazer as charadas!!!
+P85_1,{c}(Pow),{c}(Pow)
+P85_2,{c}(Paf),{c}(Paf)
+P85_3,{c}(Bam),{c}(Bam)
+A85_0,"Tudo bem, não temos escolha.","Tudo bem, não temos escolha."
+A85_1,Bater mais!!,Bater mais!!
 ,,
-P112_0,,{c}(Acabaram com o Mago)
-P112_1,,[Griff] Até que enfim!!
+P112_0,{c}(Acabaram com o Mago),{c}(Acabaram com o Mago)
+P112_1,[Griff] Até que enfim!!,[Griff] Até que enfim!!
 ,,
-P121_0,,{c}(Mas... A Joia Doce foi destruída na briga)
-P121_1,,{c}(Plue e Griff vão se desculpar com o Rei)
+P121_0,{c}(Mas... A Joia Doce foi destruída na briga),{c}(Mas... A Joia Doce foi destruída na briga)
+P121_1,{c}(Plue e Griff vão se desculpar com o Rei),{c}(Plue e Griff vão se desculpar com o Rei)
 ,,
-P127_0,,[Rei Carmella] Hã? Tudo bem. Já criamos uma joia nova.
-P127_1,,[Griff] Hein?! Dava pra criar?!
-P127_2,,"{c}(Então, para que Plue e Griff tiveram tanto trabalho?)"
+P127_0,[Rei Carmella] Hã? Tudo bem. Já criamos uma joia nova.,[Rei Carmella] Hã? Tudo bem. Já criamos uma joia nova.
+P127_1,[Griff] Hein?! Dava pra criar?!,[Griff] Hein?! Dava pra criar?!
+P127_2,"{c}(Então, para que Plue e Griff tiveram tanto trabalho?)","{c}(Então, para que Plue e Griff tiveram tanto trabalho?)"
 ,,
-P115_0,,[Mago Malégno] Primeira pergunta...
-P115_1,,               Como se chama o médico que cuida de animais?
-A115_0,,Animal Man.
-A115_1,,Veterinário.
+P115_0,[Mago Malégno] Primeira pergunta...,[Mago Malégno] Primeira pergunta...
+P115_1,               Como se chama o médico que cuida de animais?,               Como se chama o médico que cuida de animais?
+A115_0,Animal Man.,Animal Man.
+A115_1,Veterinário.,Veterinário.
 ,,
-P76_0,,[Mago Malégno] Que pena... Está errado.
+P76_0,[Mago Malégno] Que pena... Está errado.,[Mago Malégno] Que pena... Está errado.
 ,,
-P98_0,,[Mago Malégno] Correto... Foi fácil demais...
-P98_1,,               Vamos para a segunda pergunta. O que é a coisa vermelha que corre dentro do corpo humano? 
-A98_0,,Equador.
-A98_1,,Suco de tomate.
-A98_2,,Sangue.
+P98_0,[Mago Malégno] Correto... Foi fácil demais...,[Mago Malégno] Correto... Foi fácil demais...
+P98_1,               Vamos para a segunda pergunta. O que é a coisa vermelha que corre dentro do corpo humano? ,               Vamos para a segunda pergunta. O que é a coisa vermelha que corre dentro do corpo humano? 
+A98_0,Equador.,Equador.
+A98_1,Suco de tomate.,Suco de tomate.
+A98_2,Sangue.,Sangue.
 ,,
-P45_0,,[Mago Malégno] Claro que não!!
-P45_1,,               O Equador é...
-P45_2,,               Uma linha imaginária que divide o planeta nos hemisférios Norte e Sul.
+P45_0,[Mago Malégno] Claro que não!!,[Mago Malégno] Claro que não!!
+P45_1,               O Equador é...,               O Equador é...
+P45_2,               Uma linha imaginária que divide o planeta nos hemisférios Norte e Sul.,               Uma linha imaginária que divide o planeta nos hemisférios Norte e Sul.
 ,,
-P116_0,,[Mago Malégno] Rá! Errou!!
+P116_0,[Mago Malégno] Rá! Errou!!,[Mago Malégno] Rá! Errou!!
 ,,
-P83_0,,[Mago Malégno] Correto... Agora é pra valer!
-P83_1,,               Como se lê este kanji?
-A83_0,,Kan.
-A83_1,,Hei.
-A83_2,,Chappi.
-A83_3,,Mon.
+P83_0,[Mago Malégno] Correto... Agora é pra valer!,[Mago Malégno] Correto... Agora é pra valer!
+P83_1,               Como se lê este kanji?,               Como se lê este kanji?
+A83_0,Kan.,Kan.
+A83_1,Hei.,Hei.
+A83_2,Chappi.,Chappi.
+A83_3,Mon.,Mon.
 ,,
-P109_0,,[Mago Malégno] Ugh! É quase isso. Mas foi uma pena...
+P109_0,[Mago Malégno] Ugh! É quase isso. Mas foi uma pena...,[Mago Malégno] Ugh! É quase isso. Mas foi uma pena...
 ,,
-P94_0,,[Mago Malégno] Ei... Está de brincadeira?
-P94_1,,               Onde já se viu um kanji para Chappi?
-P94_2,,[Griff] Ele disse que já viu.
+P94_0,[Mago Malégno] Ei... Está de brincadeira?,[Mago Malégno] Ei... Está de brincadeira?
+P94_1,               Onde já se viu um kanji para Chappi?,               Onde já se viu um kanji para Chappi?
+P94_2,[Griff] Ele disse que já viu.,[Griff] Ele disse que já viu.
 ,,
-P34_0,,[Mago Malégno] Nãããão!! Está errado!!
+P34_0,[Mago Malégno] Nãããão!! Está errado!!,[Mago Malégno] Nãããão!! Está errado!!
 ,,
-P65_0,,"[Mago Malégno] Correto!! Agora, respondam a última pergunta!!"
-P65_1,,[Griff] Qual o sentido disto?
+P65_0,"[Mago Malégno] Correto!! Agora, respondam a última pergunta!!","[Mago Malégno] Correto!! Agora, respondam a última pergunta!!"
+P65_1,[Griff] Qual o sentido disto?,[Griff] Qual o sentido disto?
 ,,
-P69_0,,[Mago Malégno] Qual destes não faz parte do grupo? Pense bem!
-A69_0,,Pelo.
-A69_1,,Olho.
-A69_2,,Ouvido.
-A69_3,,Ombro.
+P69_0,[Mago Malégno] Qual destes não faz parte do grupo? Pense bem!,[Mago Malégno] Qual destes não faz parte do grupo? Pense bem!
+A69_0,Pelo.,Pelo.
+A69_1,Olho.,Olho.
+A69_2,Ouvido.,Ouvido.
+A69_3,Ombro.,Ombro.
 ,,
-P49_0,,[Mago Malégno] Buuuuu!!
+P49_0,[Mago Malégno] Buuuuu!!,[Mago Malégno] Buuuuu!!
 ,,
-P75_0,,"[Mago Malégno] Ha, ha, ha!! Foram muito bem, mas, infelizmente..."
-P75_1,,               ...Está errado!
+P75_0,"[Mago Malégno] Ha, ha, ha!! Foram muito bem, mas, infelizmente...","[Mago Malégno] Ha, ha, ha!! Foram muito bem, mas, infelizmente..."
+P75_1,               ...Está errado!,               ...Está errado!
 ,,
-P99_0,,"[Mago Malégno] Que pena... Se vocês acharam que é porque não faz parte da cabeça, estão errados."
-P99_1,,               Mas vou lhes dar outra chance.
+P99_0,"[Mago Malégno] Que pena... Se vocês acharam que é porque não faz parte da cabeça, estão errados.","[Mago Malégno] Que pena... Se vocês acharam que é porque não faz parte da cabeça, estão errados."
+P99_1,               Mas vou lhes dar outra chance.,               Mas vou lhes dar outra chance.
 ,,
-P110_0,,[Mago Malégno] ...
-P110_1,,[Griff] E então?
-A110_0,,Aguarde um instante.
-A110_1,,Mudar resposta.
-A110_2,,? - Vá para a verdade.
+P110_0,[Mago Malégno] ...,[Mago Malégno] ...
+P110_1,[Griff] E então?,[Griff] E então?
+A110_0,Aguarde um instante.,Aguarde um instante.
+A110_1,Mudar resposta.,Mudar resposta.
+A110_2,? - Vá para a verdade.,? - Vá para a verdade.
 ,,
-P117_0,,[Mago Malégno] Correto...
-P117_1,,"               ""Pelo"" é o único que começa com ""P""."
+P117_0,[Mago Malégno] Correto...,[Mago Malégno] Correto...
+P117_1,"               ""Pelo"" é o único que começa com ""P"".","               ""Pelo"" é o único que começa com ""P""."
 ,,
-P118_0,,[Mago Malégno] Fui derrotado... Eu lhes devolvo a Joia Doce.
-P118_1,,[Griff] Viva!!
+P118_0,[Mago Malégno] Fui derrotado... Eu lhes devolvo a Joia Doce.,[Mago Malégno] Fui derrotado... Eu lhes devolvo a Joia Doce.
+P118_1,[Griff] Viva!!,[Griff] Viva!!
 ,,
-P120_0,,{c}(Plue e Griff recuperaram a Joia Doce)
-P120_1,,"{c}(Assim, as balas do mundo inteiro foram salvas graças ao Plue e ao Griff)"
+P120_0,{c}(Plue e Griff recuperaram a Joia Doce),{c}(Plue e Griff recuperaram a Joia Doce)
+P120_1,"{c}(Assim, as balas do mundo inteiro foram salvas graças ao Plue e ao Griff)","{c}(Assim, as balas do mundo inteiro foram salvas graças ao Plue e ao Griff)"
 ,,
-P11_0,,(Nesse instante... O espaço se distorce)
-P11_1,,"(Você encontrou a ""Resposta dentro da Resposta"")"
+P11_0,(Nesse instante... O espaço se distorce),(Nesse instante... O espaço se distorce)
+P11_1,"(Você encontrou a ""Resposta dentro da Resposta"")","(Você encontrou a ""Resposta dentro da Resposta"")"
 ,,
-P71_0,,[Mago Malégno] HOHOHO!!
-P71_1,,(O Rei Carmella surge de dentro do Mago Malégno)
-P71_2,,[Griff] Hein?!
+P71_0,[Mago Malégno] HOHOHO!!,[Mago Malégno] HOHOHO!!
+P71_1,(O Rei Carmella surge de dentro do Mago Malégno),(O Rei Carmella surge de dentro do Mago Malégno)
+P71_2,[Griff] Hein?!,[Griff] Hein?!
 ,,
-P80_0,,"[Rei Carmella] Eu disse que o Mago era travesso. Ho, ho, ho!"
+P80_0,"[Rei Carmella] Eu disse que o Mago era travesso. Ho, ho, ho!","[Rei Carmella] Eu disse que o Mago era travesso. Ho, ho, ho!"
 ,,
-P122_0,,[Rei Carmella] Desculpe por tê-los enganado. Só queria ver o quanto vocês amam as balas.
-P122_1,,[Griff] Era tudo mentira?!
+P122_0,[Rei Carmella] Desculpe por tê-los enganado. Só queria ver o quanto vocês amam as balas.,[Rei Carmella] Desculpe por tê-los enganado. Só queria ver o quanto vocês amam as balas.
+P122_1,[Griff] Era tudo mentira?!,[Griff] Era tudo mentira?!
 ,,
-P123_0,,[Rei Carmella] Isso mesmo... Mas.. Descobriram a verdade!! A paixão de vocês pelas balas é real! Estou emocionado.
+P123_0,[Rei Carmella] Isso mesmo... Mas.. Descobriram a verdade!! A paixão de vocês pelas balas é real! Estou emocionado.,[Rei Carmella] Isso mesmo... Mas.. Descobriram a verdade!! A paixão de vocês pelas balas é real! Estou emocionado.
 ,,
-P124_0,,[Plue] Puuun...
-P124_1,,[Griff] Isso não se faz!! Veja o Mestre Plue! Ele está chorando!
-P124_2,,[Rei Carmella] Desculpem... Não era a minha intenção. Era apenas uma brincadeirinha...
+P124_0,[Plue] Puuun...,[Plue] Puuun...
+P124_1,[Griff] Isso não se faz!! Veja o Mestre Plue! Ele está chorando!,[Griff] Isso não se faz!! Veja o Mestre Plue! Ele está chorando!
+P124_2,[Rei Carmella] Desculpem... Não era a minha intenção. Era apenas uma brincadeirinha...,[Rei Carmella] Desculpem... Não era a minha intenção. Era apenas uma brincadeirinha...
 ,,
-P125_0,,[Plue] P-puuun...
-P125_1,,"[Griff] Hã? Não? Está chorando de alegria, pois as balas do mundo não vão sumir?"
+P125_0,[Plue] P-puuun...,[Plue] P-puuun...
+P125_1,"[Griff] Hã? Não? Está chorando de alegria, pois as balas do mundo não vão sumir?","[Griff] Hã? Não? Está chorando de alegria, pois as balas do mundo não vão sumir?"
 ,,
-P126_0,,[Rei Carmella] Oh!! Fantástico!!
-P126_1,,               Isso sim é paixão pelas balas!!
-P126_2,,               Vamos comemorar!!!
+P126_0,[Rei Carmella] Oh!! Fantástico!!,[Rei Carmella] Oh!! Fantástico!!
+P126_1,               Isso sim é paixão pelas balas!!,               Isso sim é paixão pelas balas!!
+P126_2,               Vamos comemorar!!!,               Vamos comemorar!!!
 ,,
-P129_0,,"{c}(Assim, as balas do mundo inteiro foram salvas) "
-P129_1,,{c}(...mas nunca estiveram em perigo...)
-P129_2,,{c}(Mas Plue e Griff não acham que tudo foi uma perda de tempo)
+P129_0,"{c}(Assim, as balas do mundo inteiro foram salvas) ","{c}(Assim, as balas do mundo inteiro foram salvas) "
+P129_1,{c}(...mas nunca estiveram em perigo...),{c}(...mas nunca estiveram em perigo...)
+P129_2,{c}(Mas Plue e Griff não acham que tudo foi uma perda de tempo),{c}(Mas Plue e Griff não acham que tudo foi uma perda de tempo)
