@@ -13,17 +13,30 @@ tr_replace = true
 
 [node name="Choice" parent="Choices" instance=ExtResource( 2 )]
 
+margin/right = 658.0
+margin/bottom = 9.0
 text = "A110_0"
 goto_id = "panel117"
+selectable = true
 
 [node name="Choice 2" parent="Choices" instance=ExtResource( 2 )]
 
+margin/top = 13.0
+margin/right = 658.0
+margin/bottom = 22.0
 text = "A110_1"
 goto_id = "panel69"
+selectable = true
 
 [node name="Choice 3" parent="Choices" instance=ExtResource( 2 )]
 
+margin/top = 26.0
+margin/right = 658.0
+margin/bottom = 35.0
 text = "A110_2"
+choice_id = "MTRUE_ANSWER"
 goto_id = "panel11"
+id_type = 0
+selectable = true
 
 

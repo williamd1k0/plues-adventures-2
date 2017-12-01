@@ -15,7 +15,7 @@ margin/right = 0.0
 margin/bottom = 0.0
 script/script = ExtResource( 1 )
 panels_path = "res://game/panels"
-first_panel = "panel66"
+first_panel = "splash"
 
 [node name="Story" type="Control" parent="."]
 

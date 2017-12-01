@@ -22,7 +22,7 @@ func get_choice_id():
 		return get_text().strip_edges()
 	elif id_type == 2:
 		return get_text().strip_edges()[0]
-	return choice_id
+	return tr(choice_id)
 
 func get_data():
 	var data = {
