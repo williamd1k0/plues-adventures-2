@@ -4,7 +4,7 @@ signal complete
 signal type_done
 
 export(bool) var auto_start = false
-export(float) var char_time = 0.5
+export(float) var char_time = 0.4
 export(bool) var blink = false
 export(bool) var can_skip = true
 export(bool) var tr_replace = false
@@ -54,7 +54,7 @@ func type_text():
 		self, "set_percent_visible",
 		0.0, 1.0,
 		max(get_text().length(), 1)*(char_time/10),
-		Tween.TRANS_SINE,
+		Tween.TRANS_LINEAR,
 		Tween.EASE_IN
 	)
 	tween.start()

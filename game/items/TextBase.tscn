@@ -40,9 +40,10 @@ lines_skipped = 0
 max_lines_visible = -1
 script/script = ExtResource( 2 )
 auto_start = false
-char_time = 0.5
+char_time = 0.4
 blink = false
 can_skip = true
+tr_replace = false
 
 [node name="Blink" type="AnimationPlayer" parent="."]
 

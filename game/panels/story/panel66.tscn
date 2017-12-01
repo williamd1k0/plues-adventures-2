@@ -7,23 +7,42 @@
 
 [node name="TextBase" parent="."]
 
+margin/bottom = 327.0
 text = "P66_0
 MLABYRINTH"
+char_time = 0.05
 tr_replace = true
 
 [node name="Choice" parent="Choices" instance=ExtResource( 2 )]
 
+margin/right = 658.0
+margin/bottom = 9.0
+choice_id = "1"
 goto_id = "panel95"
+id_type = 0
 actions = 1
+selectable = true
 
 [node name="Choice 2" parent="Choices" instance=ExtResource( 2 )]
 
+margin/top = 13.0
+margin/right = 658.0
+margin/bottom = 22.0
+choice_id = "2"
 goto_id = "panel48"
+id_type = 0
 actions = 1
+selectable = true
 
 [node name="Choice 3" parent="Choices" instance=ExtResource( 2 )]
 
+margin/top = 26.0
+margin/right = 658.0
+margin/bottom = 35.0
+choice_id = "3"
 goto_id = "panel77"
+id_type = 0
 actions = 1
+selectable = true
 
 
