@@ -1,6 +1,6 @@
 extends Node
 
-export(String, DIR) var story_path
+export(String, DIR) var panels_path
 export(String) var first_panel
 onready var input = get_node("UserInput")
 onready var story = get_node("Story")
@@ -38,7 +38,10 @@ func next_panel(id):
 		for child in story.get_children():
 			story.remove_child(child)
 	current_panel = id
-	var panel = load(story_path.plus_file('%s.tscn' % id)).instance()
+	var path = panels_path
+	if id.begins_with('panel'):
+		path += '/story'
+	var panel = load(path.plus_file('%s.tscn' % id)).instance()
 	panel.connect('needs_input', self, '_on_StoryPanel_needs_input')
 	story.add_child(panel)
 	panel.start()

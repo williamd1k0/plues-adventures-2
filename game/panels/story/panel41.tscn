@@ -7,20 +7,28 @@
 
 [node name="TextBase" parent="."]
 
-text = "P40_0
-MMUSHROOMS"
+text = "P41_0
+P41_1"
 tr_replace = true
 
 [node name="Choice" parent="Choices" instance=ExtResource( 2 )]
 
-text = "A40_0"
-goto_id = "panel27"
-actions = 1
+text = "A41_0"
+goto_id = "panel32"
 
 [node name="Choice 2" parent="Choices" instance=ExtResource( 2 )]
 
-text = "A40_1"
-goto_id = "panel18"
-actions = 1
+text = "A41_1"
+goto_id = "panel68"
+
+[node name="Choice 3" parent="Choices" instance=ExtResource( 2 )]
+
+text = "A41_2"
+goto_id = "panel82"
+
+[node name="Choice 4" parent="Choices" instance=ExtResource( 2 )]
+
+text = "A41_3"
+goto_id = "panel74"
 
 

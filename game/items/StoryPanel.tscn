@@ -16,7 +16,7 @@ func _ready():
 func create_numbered_list():
 		var n = 1
 		for child in get_children():
-			if child.has_method('get_text') and not child.is_hidden():
+			if child.has_method('get_text') and not child.is_hidden() and child.id_type != 0:
 				child.set_text('%s - %s' % [n, child.get_text()])
 				n+=1
 "

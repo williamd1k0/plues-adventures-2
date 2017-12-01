@@ -41,7 +41,7 @@ P15_0,[Guarda] Mm? Vieram ajudar a recuperar a Joia Doce?,[Guarda] Mm? Vieram aj
 P15_1,         Quero ver se são herois de verdade!,         Quero ver se são herois de verdade!
 P15_2,{c}(A luta começa!),{c}(A luta começa!)
 A15_0,Lutar!,Lutar!
-A15_0,Fugir!,Fugir!
+A15_1,Fugir!,Fugir!
 ,,
 P4_0,{c}(Plue lança uma pedrinha),{c}(Plue lança uma pedrinha)
 P4_1,[Griff] Mestre Plue!! Essa pedrinha não vai derrotá-lo!,[Griff] Mestre Plue!! Essa pedrinha não vai derrotá-lo!
