@@ -13,11 +13,10 @@ export(String, DIR) var story_path
 const CHOICE = preload('res://game/items/Choice.tscn')
 
 func _ready():
-	print(SaveData.get_save_points())
 	for p in SaveData.get_save_points():
 		var scn = load(story_path.plus_file('%s.tscn' % p)).instance()
 		var c = CHOICE.instance()
-		c.set_text(scn.get_node('TextBase').get_text().split('\\n')[0])
+		c.set_text(tr(scn.get_node('TextBase').get_text().split('\\n')[0]).replace('{c}', ''))
 		scn.free()
 		c.goto_id = p
 		get_parent().call_deferred('add_child', c)
@@ -29,12 +28,10 @@ func _ready():
 
 [node name="TextBase" parent="."]
 
-margin/bottom = 265.0
+margin/bottom = 323.0
 text = ""
 
 [node name="TextBase" parent="TextBase" instance=ExtResource( 2 )]
-
-tr_replace = false
 
 [node name="TextBase 2" parent="TextBase" instance=ExtResource( 3 )]
 
@@ -42,7 +39,6 @@ margin/top = 195.0
 margin/right = 628.0
 margin/bottom = 321.0
 text = "MENU_LOAD_TITLE"
-tr_replace = false
 
 [node name="Choices" parent="."]
 

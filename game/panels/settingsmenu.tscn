@@ -1,9 +1,17 @@
-[gd_scene load_steps=5 format=1]
+[gd_scene load_steps=6 format=1]
 
 [ext_resource path="res://game/items/StoryPanel.tscn" type="PackedScene" id=1]
 [ext_resource path="res://game/items/misc/TitleScreen.tscn" type="PackedScene" id=2]
 [ext_resource path="res://game/items/TextBase.tscn" type="PackedScene" id=3]
 [ext_resource path="res://game/items/Choice.tscn" type="PackedScene" id=4]
+
+[sub_resource type="GDScript" id=1]
+
+script/source = "extends Node
+
+static func execute(manager):
+	SaveData.clear_data()
+"
 
 [node name="StoryPanel" instance=ExtResource( 1 )]
 
@@ -14,15 +22,12 @@ text = ""
 
 [node name="TextBase" parent="TextBase" instance=ExtResource( 2 )]
 
-tr_replace = false
-
 [node name="TextBase 2" parent="TextBase" instance=ExtResource( 3 )]
 
 margin/top = 195.0
 margin/right = 603.0
 margin/bottom = 214.0
 text = "MENU_SETTINGS_TITLE"
-tr_replace = false
 
 [node name="Choices" parent="."]
 
@@ -62,7 +67,9 @@ margin/right = 658.0
 margin/bottom = 48.0
 text = "MENU_CLEAR"
 goto_id = "menu"
-selectable = false
+actions = 4
+custom_script = SubResource( 1 )
+selectable = true
 
 [node name="Choice 5" parent="Choices" instance=ExtResource( 4 )]
 

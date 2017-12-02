@@ -3,5 +3,5 @@ INPUT_CONTINUE,Press Return to continue,Pressione Enter para continuar
 INPUT_TYPE,Type a command and press Return,Digite um comando e pressione Enter
 INPUT_UNKNOWN,Unknown command,Comando desconhecido
 INPUT_BAD,"Your command contains bad words, too bad!","Seu comando contém palavras feias, muito errado!"
-INPUT_SAVED,Game saved,Jogo salvo
+INPUT_SAVED,Saving game,Salvando o jogo
 INPUT_EXIT,Use Ctrl-Z plus Return to exit,Use Ctrl-Z e Enter para sair

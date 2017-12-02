@@ -42,13 +42,20 @@ func load_data():
 		f.open_encrypted_with_pass(SAVE_PATH, File.READ, 'imposto é roubo')
 		data = f.get_var()
 		f.close()
-	print(data)
 
 func save_data():
 	var f = File.new()
 	f.open_encrypted_with_pass(SAVE_PATH, File.WRITE, 'imposto é roubo')
 	f.store_var(data)
 	f.close()
+
+func clear_data():
+	data = {
+		\"savepoints\": [],
+		\"achievements\": []
+	}
+	var d = Directory.new()
+	d.remove(SAVE_PATH)
 "
 
 [node name="SaveData" type="Node"]

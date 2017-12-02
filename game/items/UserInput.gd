@@ -14,7 +14,6 @@ var text_cache = ''
 var regex = RegEx.new()
 
 func _ready():
-	get_node("TR").queue_free()
 	if check_bad_words:
 		load_regex()
 	lock()
@@ -81,14 +80,12 @@ func _input_event(event):
 func process_input():
 	var text = get_text().strip_edges()
 	if check_bad_words and contains_bad_words(text):
-		print('bad words')
 		type_info(tr('INPUT_BAD'))
 		yield(self, 'text_type')
 		wait_command()
 	elif global_inputs.size() > 0 and text.to_lower().split(' ')[0] in global_inputs:
 		global_command(text.to_lower())
 	elif valid_inputs.size() == 0 or text in valid_inputs:
-		prints('CMD', text)
 		while Input.is_action_pressed("console_return"):
 			get_node("Wait").set_wait_time(0.1)
 			get_node("Wait").start()
