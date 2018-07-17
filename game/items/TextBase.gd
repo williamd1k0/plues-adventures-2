@@ -16,7 +16,7 @@ func _ready():
 	if tr_replace:
 		var txt = ''
 		for line in get_text().split('\n'):
-			txt += tr(line) + '\n\n'
+			txt += tr(line.strip_edges()) + '\n\n'
 		set_text(txt.strip_edges())
 	var txt = ''
 	for line in get_text().split('\n'):

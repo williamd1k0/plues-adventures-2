@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=1]
+[gd_scene load_steps=4 format=1]
 
 [ext_resource path="res://game/main/StoryManager.gd" type="Script" id=1]
-[ext_resource path="res://game/items/UserInput.tscn" type="PackedScene" id=2]
+[ext_resource path="res://game/items/WindowFrame.tscn" type="PackedScene" id=2]
+[ext_resource path="res://game/items/UserInput.tscn" type="PackedScene" id=3]
 
 [node name="StoryManager" type="Control"]
 
@@ -17,22 +18,24 @@ script/script = ExtResource( 1 )
 panels_path = "res://game/panels"
 first_panel = "splash"
 
+[node name="WindowFrame" parent="." instance=ExtResource( 2 )]
+
 [node name="Story" type="Control" parent="."]
 
 focus/ignore_mouse = false
 focus/stop_mouse = true
 size_flags/horizontal = 2
 size_flags/vertical = 2
-margin/left = 0.0
-margin/top = 0.0
-margin/right = 40.0
-margin/bottom = 40.0
+margin/left = 1.0
+margin/top = 29.0
+margin/right = 41.0
+margin/bottom = 69.0
 
-[node name="UserInput" parent="." instance=ExtResource( 2 )]
+[node name="UserInput" parent="." instance=ExtResource( 3 )]
 
 margin/left = 16.0
-margin/top = 329.0
-margin/bottom = 352.0
+margin/top = 358.0
+margin/bottom = 381.0
 valid_inputs = StringArray( "lorem ipsum" )
 
 

@@ -15,7 +15,10 @@ tr_replace = true
 
 [node name="Choice" parent="Choices" instance=ExtResource( 2 )]
 
+margin/right = 658.0
+margin/bottom = 9.0
 goto_id = "panel2"
 id_type = 0
+selectable = true
 
 
