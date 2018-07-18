@@ -84,14 +84,14 @@ TooltipLabel/constants/shadow_offset_y = 1
 TooltipLabel/fonts/font = null
 TooltipPanel/styles/panel = SubResource( 7 )
 
-[sub_resource type="StyleBoxEmpty" id=1]
+[sub_resource type="StyleBoxEmpty" id=2]
 
 content_margin/left = -1.0
 content_margin/right = -1.0
 content_margin/top = -1.0
 content_margin/bottom = -1.0
 
-[sub_resource type="StyleBoxEmpty" id=2]
+[sub_resource type="StyleBoxEmpty" id=13]
 
 content_margin/left = -1.0
 content_margin/right = -1.0
@@ -137,15 +137,35 @@ color = Color( 0, 0, 0, 1 )
 
 [node name="Menus" type="HBoxContainer" parent="."]
 
+anchor/left = 1
+anchor/right = 1
 focus/ignore_mouse = false
 focus/stop_mouse = false
 size_flags/horizontal = 2
 size_flags/vertical = 2
-margin/left = 630.0
+margin/left = 83.0
 margin/top = 3.0
-margin/right = 687.0
+margin/right = 3.0
 margin/bottom = 26.0
 alignment = 2
+
+[node name="Color" type="Button" parent="Menus"]
+
+rect/min_size = Vector2( 24, 23 )
+focus/ignore_mouse = false
+focus/stop_mouse = true
+size_flags/horizontal = 2
+size_flags/vertical = 2
+margin/left = 0.0
+margin/top = 0.0
+margin/right = 24.0
+margin/bottom = 23.0
+custom_styles/normal = SubResource( 2 )
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+text = "?"
+flat = false
 
 [node name="Minimize" type="Button" parent="Menus"]
 
@@ -154,11 +174,11 @@ focus/ignore_mouse = false
 focus/stop_mouse = true
 size_flags/horizontal = 2
 size_flags/vertical = 2
-margin/left = 5.0
+margin/left = 28.0
 margin/top = 0.0
-margin/right = 29.0
+margin/right = 52.0
 margin/bottom = 23.0
-custom_styles/normal = SubResource( 1 )
+custom_styles/normal = SubResource( 13 )
 toggle_mode = false
 enabled_focus_mode = 2
 shortcut = null
@@ -172,9 +192,9 @@ focus/ignore_mouse = false
 focus/stop_mouse = true
 size_flags/horizontal = 2
 size_flags/vertical = 2
-margin/left = 33.0
+margin/left = 56.0
 margin/top = 0.0
-margin/right = 57.0
+margin/right = 80.0
 margin/bottom = 23.0
 custom_styles/normal = SubResource( 2 )
 toggle_mode = false
@@ -199,6 +219,8 @@ valign = 1
 percent_visible = 1.0
 lines_skipped = 0
 max_lines_visible = -1
+
+[connection signal="pressed" from="Menus/Color" to="." method="_on_Color_pressed"]
 
 [connection signal="pressed" from="Menus/Minimize" to="." method="_on_Minimize_pressed"]
 
