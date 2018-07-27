@@ -130,7 +130,7 @@ func load_regex():
 	var files = []
 	while file != '':
 		file = dir.get_next()
-		if file in ['.', '..']:
+		if file in ['', '.', '..']:
 			continue
 		var f = File.new()
 		f.open(BAD_WORDS_FOLDER.plus_file(file), File.READ)
